@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+$PT-Serif: "PT-Serif", serif;
+
+//colors
+$yellow: rgb(237,196,12);
+$black: rgb(44,41,38);
+$white: rbg(255,255,255);
+
+//spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border radius
+$borderRadius: 12px;
+
+//border height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
