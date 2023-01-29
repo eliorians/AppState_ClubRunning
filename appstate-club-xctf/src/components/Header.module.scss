@@ -6,7 +6,7 @@
     height: $headerHeight;
     padding: 0 1.5rem;
     @include breakpoint(md) {
-        padding: 0 3rem;
+        padding: 0 1rem;
     }
     transition: 0.3s ease all;
 
@@ -34,6 +34,7 @@
             right: 100%;
             bottom: 0;
             width: 100%;
+            height: 100vh;
             position: fixed;
             display: flex;
             flex-direction: column;
@@ -104,6 +105,7 @@
             font-size: 2rem;
             transition: 0.3s ease all;
             position: relative;
+            padding: 0 3rem;
 
             &:hover {
                 color: $white;
