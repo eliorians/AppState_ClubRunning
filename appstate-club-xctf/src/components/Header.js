@@ -3,6 +3,7 @@ import classes from "./Header.module.scss";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import myLogo from "../images/ClubXC&Track(Black).png";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -37,7 +38,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    *LOGO HERE*
+                    <img src = {myLogo} width = {100} height = {100} alt = "Logo" />
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
