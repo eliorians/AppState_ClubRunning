@@ -1,5 +1,12 @@
-import Layout from "./components/Layout";
+//Tools
 import { Switch, Route } from "react-router-dom";
+//Layouts
+import HomeLayout from "./components/HomeLayout";
+import JoinLayout from "./components/JoinLayout";
+import ScheduleLayout from "./components/ScheduleLayout";
+import RecordsLayout from "./components/RecordsLayout";
+import ContactLayout from "./components/ContactLayout";
+//Pages
 import Home from "./pages/Home";
 import Join from "./pages/Join";
 import Schedule from "./pages/Schedule";
@@ -8,25 +15,33 @@ import Contact from "./pages/Contact";
 
 function App() {
     return (
-        <Layout>
             <Switch>
                 <Route path="/" exact>
-                    <Home />
+                    <HomeLayout>
+                        <Home />
+                    </HomeLayout>
                 </Route>
                 <Route path="/Join">
-                    <Join />
+                    <JoinLayout>
+                        <Join />
+                    </JoinLayout>
                 </Route>
                 <Route path="/Schedule">
-                    <Schedule />
+                    <ScheduleLayout>
+                        <Schedule />
+                    </ScheduleLayout>
                 </Route>
                 <Route path="/Records">
-                    <Records />
+                    <RecordsLayout>
+                        <Records />
+                    </RecordsLayout>
                 </Route>
                 <Route path="/Contact">
-                    <Contact />
+                    <ContactLayout>
+                        <Contact />
+                    </ContactLayout>
                 </Route>
             </Switch>
-        </Layout>
     );
 }
 

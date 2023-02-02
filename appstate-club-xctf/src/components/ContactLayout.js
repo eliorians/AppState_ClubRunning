@@ -1,9 +1,11 @@
+//Tools
 import React from "react";
+//Components
 import Header from "./Header";
+//Styles
+import classes from "./ScheduleLayout.module.scss";
 
-import classes from "./Layout.module.scss";
-
-const Layout = ({ children }) => {
+const ScheduleLayout = ({ children }) => {
     return (
         <>
             <Header />
@@ -12,4 +14,4 @@ const Layout = ({ children }) => {
     );
 };
 
-export default Layout;
+export default ScheduleLayout;
