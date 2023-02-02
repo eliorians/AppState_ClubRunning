@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Header.module.scss";
+import logo from "../images/logos/ClubXC&Track(Black).png";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import logo from "../images/logos/ClubXC&Track(Black).png";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
