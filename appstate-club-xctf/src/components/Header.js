@@ -41,7 +41,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    <img src = {logo} width = {100} height = {100} alt = "Logo" />
+                    <img src = {logo} width = {150} height = {150} alt = "Logo" />
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
@@ -56,7 +56,7 @@ const Header = () => {
                         </li>
                         <li>
                             <Link to="/Join" onClick={menuToggleHandler}>
-                                Join
+                                How to Join
                             </Link>
                         </li>
                         <li>
@@ -66,12 +66,12 @@ const Header = () => {
                         </li>
                         <li>
                             <Link to="/Records" onClick={menuToggleHandler}>
-                                Records
+                                Club Records
                             </Link>
                         </li>
                         <li>
                             <Link to="/Contact" onClick={menuToggleHandler}>
-                                Contact
+                                Contact Us
                             </Link>
                         </li>
                     </ul>
