@@ -9,9 +9,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Header />
-            <div className={classes.container}>{children}</div>
-            <div className={classes.casual}>{children}</div>
-            <div className={classes.competitive}>{children}</div>
+            <div className={classes.container}>{children}</div>\
         </>
     );
 };

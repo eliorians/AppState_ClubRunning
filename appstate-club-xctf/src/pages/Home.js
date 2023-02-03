@@ -1,21 +1,26 @@
 import React from "react";
 import "../components/Layout.module.scss";
+import "./Home.css"
 
 const Home = () => {
     return (
-        <div className='home'>
-            <div className='welcome'>
-                <h1>Welcome to </h1>
-                <h2>Club Cross Country & Track!</h2>
+        <div class='home'>
+
+            <div class='welcome'>
+                <h2>Welcome to Appalachain State</h2>
+                <h1>Club Cross Country & Track!</h1>
             </div>
-            <div className='casual'>
-                <h1>For casual runners...</h1>
-                <p>...</p>
+
+            <div class='casual'>
+                <h1>Casual</h1>
+                <p>content abt casual</p>
             </div>
-            <div className='competitive'>
-                <h1>For competitive runners...</h1>
-                <p>...</p>
+
+            <div class='competitive'>
+                <h1>Competitive</h1>
+                <p>content abt competitive</p>
             </div>
+
         </div>
     )
 };

@@ -3,21 +3,4 @@
 .container {
     height: calc(50vh - #{$headerHeight});
     background: $white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.casual {
-    background: white;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.competitive {
-    background: white;
-    display: flex;
-    justify-content: right;
-    align-items: center;
 }
