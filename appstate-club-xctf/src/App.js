@@ -1,5 +1,8 @@
-import Layout from "./components/Layout";
+//Tools
 import { Switch, Route } from "react-router-dom";
+//Layout
+import Layout from "./components/Layout";
+//Pages
 import Home from "./pages/Home";
 import Join from "./pages/Join";
 import Schedule from "./pages/Schedule";

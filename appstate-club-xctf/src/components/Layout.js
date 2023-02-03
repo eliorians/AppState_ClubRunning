@@ -1,6 +1,8 @@
+//Tools
 import React from "react";
+//Components
 import Header from "./Header";
-
+//Styles
 import classes from "./Layout.module.scss";
 
 const Layout = ({ children }) => {
@@ -11,5 +13,6 @@ const Layout = ({ children }) => {
         </>
     );
 };
+
 
 export default Layout;
