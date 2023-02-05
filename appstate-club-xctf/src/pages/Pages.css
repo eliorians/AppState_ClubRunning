@@ -27,7 +27,7 @@ div.home-wrapper {
     overflow: hidden;
 
     display: inline-grid;
-    grid-template-rows: 200px 500px 600px;
+    grid-template-rows: 150px 500px 600px;
     column-gap: 50px;
     row-gap: 100px;
 }
