@@ -56,7 +56,7 @@ const Header = () => {
                         </li>
                         <li>
                             <Link to="/Join" onClick={menuToggleHandler}>
-                                How to Join
+                                Get Involved
                             </Link>
                         </li>
                         <li>
