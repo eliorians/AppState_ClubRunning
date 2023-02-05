@@ -1,21 +1,25 @@
-import React from "react";
-import "../components/Layout.module.scss";
-import "./Pages.css"
+import React from 'react';
+//CSS
+import '../components/Layout.module.scss';
+import './Pages.css';
+//Images
+import competitive_img from '../images/mcalpine.jpg';
+import casual_img from '../images/trashcan-falls.jpg';
 
 const Home = () => {
     return (
-        <div class='home'>
+        <div class='home-wrapper'>
 
             <div class='welcome'>
                 <p><i>Boone, NC</i></p>
-                <h1>Appalachian State</h1>
-                <h1>Club Cross Country & Track</h1>
+                <h1><b>Appalachian State</b></h1>
+                <h1><b>Club Cross Country & Track</b></h1>
 
             </div>
             
-            <div class='competitive'>
+            <div class='competitive-txt'>
                 <h2>Competitive Athletes</h2>
-                <p>
+                <p align='left'>
                 If you’re looking for a competitive group to train and race with, you’ve found it. 
                 With the help of our workout coordinator, we provide you with a variety of workout options every week. 
                 Also, as a club under the National Intercollegiate Running Club Association (NIRCA), our team is able to travel throughout the semester to compete against other running clubs. 
@@ -23,14 +27,23 @@ const Home = () => {
                 </p>
             </div>
 
-            <div class='casual'>
+            <div class='competitive-img'>
+                <img src = {competitive_img} alt='competitve_img'/>
+            </div>
+
+            <div class='casual-txt'>
                 <h2>Casual Runners</h2>
-                <p>
+                <p align='left'>
                 Whether you’re trying to get back into shape or just starting to run for the first time, we want you to! 
                 We accept runners of all levels and have no prerequisites to join. Also, there are no attendance requirements, come as often or as little as you want and get out what you put in. 
                 Come explore Boone’s beautiful trails with us or meet new friends at our social events too.
                 </p>
             </div>
+
+            <div class='casual-img'>
+            <img src = {casual_img} alt='competitve_img'/>
+            </div>
+
         </div>
     )
 };

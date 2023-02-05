@@ -1,45 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* General */
 
 h1 {
     font-size: 42px;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
 }
 
 h2 {
     font-size: 36px;
+    line-height: 3;
+    font-family: 'Merriweather', serif;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
 }
 
-/* Home Page Large*/
+/* Home Page*/
 
-div.home {
+div.home-wrapper {
     margin: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    overflow: hidden;
+
+    display: inline-grid;
+    grid-template-rows: 200px 500px 600px;
+    column-gap: 50px;
+    row-gap: 100px;
 }
     
 div.welcome {
     text-align: center;
-    margin-bottom: 50px;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 
-div.competitive {
-    float: left;
-    inline-size: 500px;
+div.competitive-txt {
+    inline-size: auto;
+    text-align: center;
     overflow-wrap: break-word;
-}
 
-div.casual {
-    float: right;
-    inline-size: 500px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+div.casual-txt {
+    inline-size: auto;
+    text-align: center;
     overflow-wrap: break-word;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
 }
 
-/*Home Page small */
-@media screen and (max-width: 600px) {
+div.competitive-img {
+    max-width: 100%;
+    max-height: auto;
+    overflow: hidden;
+    
 
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
+
+div.casual-img {
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+
 /* Join Page */
