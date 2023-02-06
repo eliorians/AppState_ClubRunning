@@ -1,27 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 //fonts
-$PT-Serif: "PT-Serif", serif; //titles
-                              //body ?
-
+$Merriweather: "Merriweather", serif;
 
 //colors
 $yellow: rgb(237,196,12);
 $black: rgb(44,41,38);
 $white: rbg(255,255,255);
 
-//background color: offwhite ?
-//text color: black ?
-
-
 //spacing
 $spacing-md: 16px;
 $spacing-lg: 32px;
-
-//border radius
 $borderRadius: 12px;
-
-//border height
 $headerHeight: 150px;
 
 @mixin breakpoint($point) {
