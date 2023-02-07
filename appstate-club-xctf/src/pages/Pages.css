@@ -20,6 +20,24 @@ p {
     font-family: 'Merriweather', serif;
 }
 
+
+.footer {
+    font-family: 'Merriweather', serif;
+    background: black;
+    position: relative;
+    bottom: 0;
+}
+
+.footer_contentLeft {
+	color: yellow;
+	float: left;
+}
+
+.footer_contentRight {
+	color: yellow;
+    float: right;
+}
+
 /* Home Page*/
 
 div.home-wrapper {
