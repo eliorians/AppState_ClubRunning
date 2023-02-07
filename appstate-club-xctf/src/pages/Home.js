@@ -1,6 +1,5 @@
 import React from 'react';
 //CSS
-import '../components/Layout.module.scss';
 import './Pages.css';
 //Images
 import competitive_img from '../images/mcalpine.jpg';
@@ -41,11 +40,9 @@ const Home = () => {
             </div>
 
             <div class='casual-img'>
-            <img src = {casual_img} alt='competitve_img'/>
+                <img src = {casual_img} alt='competitve_img'/>
             </div>
-            <div class='footer'>
-            </div>
-
+            
         </div>
     )
 };
