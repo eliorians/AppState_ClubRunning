@@ -1,6 +1,5 @@
 import React from 'react';
 //CSS
-import '../components/Layout.module.scss';
 import './Pages.css';
 //Images
 import competitive_img from '../images/mcalpine.jpg';
@@ -45,14 +44,6 @@ const Home = () => {
             <img src = {casual_img} alt='competitve_img'/>
             </div>
         </div>
-        <footer class = 'footer'>
-            <div class = 'footer_contentLeft'>
-                <h1> Hello first section</h1>
-            </div>
-            <div class ='footer_contentRight'>
-                <h1> Hello second section</h1>
-            </div>
-        </footer>
     </div>
     )
 };
