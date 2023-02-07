@@ -43,6 +43,8 @@ const Home = () => {
             <div class='casual-img'>
             <img src = {casual_img} alt='competitve_img'/>
             </div>
+            <div class='footer'>
+            </div>
 
         </div>
     )
