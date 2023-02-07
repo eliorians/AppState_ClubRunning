@@ -7,7 +7,6 @@ import casual_img from '../images/trashcan-falls.jpg';
 
 const Home = () => {
     return (
-    <div class = 'main-wrapper'>
         <div class='home-wrapper'>
 
             <div class='welcome'>
@@ -41,11 +40,9 @@ const Home = () => {
             </div>
 
             <div class='casual-img'>
-            <img src = {casual_img} alt='competitve_img'/>
+                <img src = {casual_img} alt='competitve_img'/>
             </div>
-            <div class='footer'>
-            </div>
-
+            
         </div>
     )
 };
