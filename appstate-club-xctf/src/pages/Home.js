@@ -7,12 +7,11 @@ import casual_img from '../images/trashcan-falls.jpg';
 const Home = () => {
     return (
         <div class='home-wrapper'>
-
+            
             <div class='welcome'>
                 <p><i>Boone, NC</i></p>
                 <h1><b>Appalachian State</b></h1>
                 <h1><b>Club Cross Country & Track</b></h1>
-
             </div>
             
             <div class='competitive-txt'>

@@ -8,17 +8,23 @@ const Join = () => {
         <div class='membership'>
             <h1>Club Membership</h1>
             <ul>
-                <li>step 1</li>
-                <li>step 2</li>
+                <li>Join the club discord <a href='https://discord.gg/9p5XsXPEjD'>here.</a></li>
+                <li><a href='https://docs.google.com/document/d/1rg-6Rhcxl71IsuerFQdbXKAobsOyiVmcnTlm0OhPz10/edit?usp=sharing'>This MIC form</a> must be printed and filled out in black ink and hand it to an officer before attending practice.</li>
+                <li>Once your form is processed, you'll be invited to the <a href='https://engage.appstate.edu/organization/appstateclubxctrack'>club's engage</a> by email. Be sure to accept this invite!</li>
+                <li>Club dues are $35 per academic year. Pay cash to an officer, or through the website below. </li>
+                <li>Sign up for practice or races! Links to practice and race sheets can be found on the Schedule page. </li>
             </ul>
+
         </div>
 
         <div class='resources'>
             <h1>Resources</h1>
             <ul>
-                <li>thing 1</li>
-                <li>thing 2</li>
+                <li><a href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing'>Club Photo Drive</a></li>
+                <li><a href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
+                <li><a href='https://docs.google.com/spreadsheets/d/1NFjUFCfI4d1DczoR3BlWjhJIC5TtEJNN/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Training Tables</a></li>
             </ul>
+
         </div>
         
         <div class='paypal-api'>
@@ -28,7 +34,7 @@ const Join = () => {
         </div>
         
         <div class='strava-api'>
-            <iframe title='club-strava' allowtransparency frameborder='0' height='160' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false' width='300'></iframe>
+            <iframe title='club-strava' allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
         </div>
 
     </div>
