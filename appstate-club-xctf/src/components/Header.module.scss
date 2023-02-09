@@ -22,11 +22,6 @@
         justify-content: space-between;
         position: relative;
         z-index: 100;
-        
-        &__logo {
-            width: '100px';
-            height: '100px';
-        }
 
         &__nav {
             top: 0;
@@ -40,8 +35,8 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            background: rgda($black, .9);
-            backdrop-filter: blur(2px);
+            background: $black;
+            opacity: 90%;
             transform: translate(0);
             transition: 0.3s ease transform;
 

@@ -20,9 +20,7 @@ p {
     font-family: 'Merriweather', serif;
 }
 
-
 /* Home Page*/
-
 
 div.home-wrapper {
     margin: 100px;
@@ -86,30 +84,20 @@ div.casual-img {
     grid-row-end: 3;
 }
 
-
 /* Join Page */
-
 
 div.join-wrapper {
     margin: 100px;
     overflow: hidden;
 
     display: inline-grid;
-    grid-template-rows: 150px;
+    grid-template-rows: 0;
     column-gap: 50px;
     row-gap: 100px;
 }
 
-div.strava-api {
-    justify-content: center;
-}
-
-
 /* Schedule Page */
-
 
 /* Records Page */
 
-
 /* Contact Page */
-
