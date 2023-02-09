@@ -20,7 +20,9 @@ p {
     font-family: 'Merriweather', serif;
 }
 
+
 /* Home Page*/
+
 
 div.home-wrapper {
     margin: 100px;
@@ -37,7 +39,6 @@ div.welcome {
 
     grid-column-start: 1;
     grid-column-end: 4;
-    
     grid-row-start: 1;
     grid-row-end: 1;
 }
@@ -49,7 +50,6 @@ div.competitive-txt {
 
     grid-column-start: 1;
     grid-column-end: 2;
-
     grid-row-start: 2;
     grid-row-end: 2;
 }
@@ -60,7 +60,6 @@ div.casual-txt {
 
     grid-column-start: 3;
     grid-column-end: 4;
-
     grid-row-start: 3;
     grid-row-end: 3;
 }
@@ -69,11 +68,9 @@ div.competitive-img {
     max-width: 100%;
     max-height: auto;
     overflow: hidden;
-    
 
     grid-column-start: 3;
     grid-column-end: 4;
-
     grid-row-start: 2;
     grid-row-end: 2;
 }
@@ -85,10 +82,34 @@ div.casual-img {
 
     grid-column-start: 1;
     grid-column-end: 2;
-
     grid-row-start: 3;
     grid-row-end: 3;
 }
 
 
 /* Join Page */
+
+
+div.join-wrapper {
+    margin: 100px;
+    overflow: hidden;
+
+    display: inline-grid;
+    grid-template-rows: 150px;
+    column-gap: 50px;
+    row-gap: 100px;
+}
+
+div.strava-api {
+    justify-content: center;
+}
+
+
+/* Schedule Page */
+
+
+/* Records Page */
+
+
+/* Contact Page */
+

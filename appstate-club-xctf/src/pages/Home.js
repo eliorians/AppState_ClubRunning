@@ -1,5 +1,4 @@
 import React from 'react';
-//CSS
 import './Pages.css';
 //Images
 import competitive_img from '../images/mcalpine.jpg';
