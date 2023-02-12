@@ -20,6 +20,12 @@ p {
     font-family: 'Merriweather', serif;
 }
 
+li {
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+}
+
 /* Home Page*/
 
 div.home-wrapper {
