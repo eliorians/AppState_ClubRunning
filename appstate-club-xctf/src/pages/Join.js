@@ -17,6 +17,19 @@ const Join = () => {
 
         </div>
 
+        <div class='paypal-api'>
+            <h2>Pay Membership Dues</h2>
+        </div>
+
+        <div class='instagram-api'>
+            <h2>Instagram</h2>
+        </div>
+        
+        <div class='strava-api'>
+            <h2>Strava</h2>
+            <iframe title='club-strava' allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+        </div>
+
         <div class='resources'>
             <h1>Resources</h1>
             <ul>
@@ -24,17 +37,6 @@ const Join = () => {
                 <li><a href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
                 <li><a href='https://docs.google.com/spreadsheets/d/1NFjUFCfI4d1DczoR3BlWjhJIC5TtEJNN/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Training Tables</a></li>
             </ul>
-
-        </div>
-        
-        <div class='paypal-api'>
-        </div>
-
-        <div class='instagram-api'>
-        </div>
-        
-        <div class='strava-api'>
-            <iframe title='club-strava' allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
         </div>
 
     </div>

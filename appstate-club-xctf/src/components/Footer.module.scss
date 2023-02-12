@@ -1,10 +1,9 @@
 @import './../styles/variables.scss';
 
 .container {
-    //container styles
     background: $black;
     width: 100%;
-    padding-bottom: 75px;  //this adjusted the height while keeping the footer down
+    padding-bottom: 75px;
     position: relative;
     display: flex;
     background: $black;

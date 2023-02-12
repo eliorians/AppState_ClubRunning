@@ -2,6 +2,10 @@
 
 /* General */
 
+html {
+    background-color: rgb(250, 249, 246);
+}
+
 h1 {
     font-size: 42px;
     line-height: 1.5;
@@ -24,82 +28,120 @@ li {
     font-size: 20px;
     line-height: 2;
     font-family: 'Merriweather', serif;
+    
+}
+
+a {
+    color: rgb(237,196,12);;
 }
 
 /* Home Page*/
 
 div.home-wrapper {
     margin: 100px;
-    overflow: hidden;
 
     display: inline-grid;
-    grid-template-rows: 150px 500px 600px;
+    grid-template-rows: auto 500px 600px;
+    grid-template-columns: auto;
     column-gap: 50px;
     row-gap: 100px;
 }
     
 div.welcome {
-    text-align: center;
-
+    grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
+
+    text-align: center;
 }
 
 div.competitive-txt {
-    inline-size: auto;
-    text-align: center;
-    overflow-wrap: break-word;
-
+    grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-div.casual-txt {
+
     inline-size: auto;
     text-align: center;
     overflow-wrap: break-word;
-
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 3;
 }
 
 div.competitive-img {
+    grid-row: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
     max-width: 100%;
     max-height: auto;
     overflow: hidden;
-
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
 }
 
 div.casual-img {
-    width: 100%;
-    height: auto;
-    overflow:hidden;
-
+    grid-row: 3;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
+
+    max-width: 100%;
+    max-height: auto;
+    overflow:hidden;
 }
+
+div.casual-txt {
+    grid-row: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    inline-size: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
 
 /* Join Page */
 
 div.join-wrapper {
     margin: 100px;
-    overflow: hidden;
 
-    display: inline-grid;
-    grid-template-rows: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
     column-gap: 50px;
     row-gap: 100px;
+}
+
+div.membership {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    inline-size: auto;
+    overflow-wrap: break-word;
+}
+
+div.paypal-api {
+    grid-row: 2;
+
+
+}
+
+
+div.instagram-api {
+    grid-row: 4;
+
+
+}
+
+div.strava-api {
+    grid-row: 5;
+
+
+}
+
+div.resources {
+    grid-row: 6;
+
+    inline-size: auto;
+    overflow-wrap: break-word;
+
 }
 
 /* Schedule Page */

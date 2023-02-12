@@ -62,13 +62,12 @@
                     margin-right: calc(0.5rem + #{$spacing-md});
                 }
                 li {
-                    &:not(:last-child) {
+                        font-size: 18px;
                         margin-bottom: $spacing-lg;
                         @include breakpoint(md) {
                             margin-bottom: 0;
                             margin-right: $spacing-md;
                         }
-                    }
                     a {
                         text-decoration: none;
                         color: inherit;
