@@ -22,20 +22,22 @@ const Join = () => {
         </div>
 
         <div class='instagram-api'>
+            {/*instagram widget: https://apps.elfsight.com/ under eli.orians@gmail.com account, has limit of 200 views per month with free version*/}
             <h2>Instagram</h2>
+            <iframe title='instagram' allowtransparency frameborder='0' height='500' width='100%' scrolling='no' src='https://sandbox.elfsightcdn.com/cdf0106a-f9d5-431e-8993-84f72a2890d4'></iframe>
         </div>
         
         <div class='strava-api'>
             <h2>Strava</h2>
-            <iframe title='club-strava' allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+            <iframe title='strava-summary'   allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+            <iframe title='strava-activites' allowtransparency frameborder='0' height='454' width='100%' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true'></iframe>
         </div>
 
         <div class='resources'>
-            <h1>Resources</h1>
+            <h1>Other Resources</h1>
             <ul>
                 <li><a href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing'>Club Photo Drive</a></li>
                 <li><a href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
-                <li><a href='https://docs.google.com/spreadsheets/d/1NFjUFCfI4d1DczoR3BlWjhJIC5TtEJNN/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Training Tables</a></li>
             </ul>
         </div>
 

@@ -3,7 +3,7 @@
 /* General */
 
 html {
-    background-color: rgb(250, 249, 246);
+    background-color: #faf9f6;
 }
 
 h1 {
@@ -32,7 +32,7 @@ li {
 }
 
 a {
-    color: rgb(237,196,12);;
+    color: #edc40c;
 }
 
 /* Home Page*/
@@ -122,7 +122,6 @@ div.paypal-api {
 
 
 }
-
 
 div.instagram-api {
     grid-row: 4;
