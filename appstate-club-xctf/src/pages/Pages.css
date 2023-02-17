@@ -28,7 +28,6 @@ li {
     font-size: 20px;
     line-height: 2;
     font-family: 'Merriweather', serif;
-    
 }
 
 a {
@@ -103,9 +102,7 @@ div.join-wrapper {
 
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 100px;
+    row-gap: 50px;
 }
 
 div.membership {
@@ -115,32 +112,54 @@ div.membership {
 
     inline-size: auto;
     overflow-wrap: break-word;
+    display: inline-block;
+    text-align: center;
+}
+
+ol.membership {
+    display: inline-block;
+    text-align: left;
 }
 
 div.paypal-api {
     grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
 
+    text-align: center;
 
 }
 
 div.instagram-api {
     grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
 
-
+    text-align: center;
 }
 
 div.strava-api {
     grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
 
-
+    text-align: center;
 }
 
 div.resources {
     grid-row: 6;
-
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    text-align: center;
     inline-size: auto;
     overflow-wrap: break-word;
 
+}
+
+ul.resources {
+    display: inline-block;
+    text-align: left;
 }
 
 /* Schedule Page */
