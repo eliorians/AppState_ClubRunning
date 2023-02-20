@@ -21,16 +21,19 @@ const Join = () => {
             <h2>Pay Membership Dues</h2>
         </div>
 
-        <div class='instagram-api'>
-            {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
+        <div class='instagram-section'>
             <h2>Follow us on Instagram</h2>
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
             <iframe title='instagram' src="//lightwidget.com/widgets/c8b0c2d632b4562c83f1b365ee42d4de.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" width='100%' height='550px' frameborder='0' overflow='hidden'></iframe>
+            {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
         </div>
         
-        <div class='strava-api'>
+        <div class='strava-summary'>
             <h2>Join our Strava Club</h2>
             <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+        </div>
+
+        <div class='strava-feed'>
             <iframe title='strava-feed' allowtransparency frameborder='0' height='550' width='100%' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true'></iframe>
         </div>
 
