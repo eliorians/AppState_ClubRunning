@@ -3,7 +3,7 @@
 /* General */
 
 html {
-    background-color: #faf9f6;
+    background-color: rgb(250, 249, 246);
 }
 
 h1 {
@@ -94,7 +94,6 @@ div.casual-txt {
     overflow-wrap: break-word;
 }
 
-
 /* Join Page */
 
 div.join-wrapper {
@@ -121,16 +120,15 @@ ol.membership {
     text-align: left;
 }
 
-div.paypal-api {
+div.paypal {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
 
     text-align: center;
-
 }
 
-div.instagram-api {
+div.instagram-section {
     grid-row: 4;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -138,7 +136,7 @@ div.instagram-api {
     text-align: center;
 }
 
-div.strava-api {
+div.strava-summary {
     grid-row: 5;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -146,15 +144,20 @@ div.strava-api {
     text-align: center;
 }
 
-div.resources {
+div.strava-feed {
     grid-row: 6;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+div.resources {
+    grid-row: 7;
+    grid-column-start: 1;
+    grid-column-end: 4;
     
-    text-align: center;
+    text-align: left;
     inline-size: auto;
     overflow-wrap: break-word;
-
 }
 
 ul.resources {
