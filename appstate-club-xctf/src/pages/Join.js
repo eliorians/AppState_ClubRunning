@@ -19,6 +19,7 @@ const Join = () => {
 
         <div class='paypal-api'>
             <h2>Pay Membership Dues</h2>
+            
         </div>
 
         <div class='instagram-section'>

@@ -156,7 +156,7 @@ div.resources {
     grid-column-start: 1;
     grid-column-end: 4;
     
-    text-align: center;
+    text-align: left;
     inline-size: auto;
     overflow-wrap: break-word;
 }
