@@ -120,13 +120,12 @@ ol.membership {
     text-align: left;
 }
 
-div.paypal-api {
+div.paypal {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
 
     text-align: center;
-
 }
 
 div.instagram-section {

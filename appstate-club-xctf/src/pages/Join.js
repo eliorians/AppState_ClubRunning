@@ -1,4 +1,6 @@
 import React from "react";
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+
 
 const Join = () => {
     return (
@@ -17,9 +19,11 @@ const Join = () => {
 
         </div>
 
-        <div class='paypal-api'>
+        <div class='paypal'>
             <h2>Pay Membership Dues</h2>
-            
+            <PayPalScriptProvider options={{'client-id': 'test', 'currency': 'USD',  }}>
+                <PayPalButtons style={{ layout: "horizontal" }} />
+            </PayPalScriptProvider>
         </div>
 
         <div class='instagram-section'>
