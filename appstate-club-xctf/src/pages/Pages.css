@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    line-height: 3;
+    line-height: 2;
     font-family: 'Merriweather', serif;
 }
 
@@ -35,8 +35,46 @@ a {
 }
 
 /* General Reactive Settings */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
 
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    li {
+        font-size: 14px;
+    }
 }
 
 
@@ -102,8 +140,61 @@ div.casual-txt {
 }
 
 /* Home Reactive Settings */
-@media only screen and (max-width: 700px) {
-
+@media only screen and (max-width: 1000px) {
+    
+    div.home-wrapper {    
+        display: inline-grid;
+        grid-template-rows: auto;
+        row-gap: 75px;
+    }
+        
+    div.welcome {
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    
+        text-align: center;
+    }
+    
+    div.competitive-txt {
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    
+        inline-size: auto;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+    
+    div.competitive-img {
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    
+        max-width: 100%;
+        max-height: auto;
+        overflow: hidden;
+    }
+    
+    div.casual-img {
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    
+        max-width: 100%;
+        max-height: auto;
+        overflow:hidden;
+    }
+    
+    div.casual-txt {
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        
+        inline-size: auto;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
 }
 
 /*! Join Page !*/

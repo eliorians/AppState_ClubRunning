@@ -20,13 +20,13 @@ const Checkout = () => {
     const onApproveOrder = (data,actions) => {
         return actions.order.capture().then((details) => {
             const name = details.payer.name.given_name;
-            alert(`Transaction received from ${name}. Welcome to the Club!`);
+            alert(`Payment received from ${name}. Welcome to the Club!`);
         });
     }
 
     return (
         <div className="checkout">
-            {isPending ? <p>Loading...</p> : (
+            {isPending ? <p>Loading Payment...</p> : (
                 <PayPalButtons 
                     style={{ layout: "vertical" }}
                     createOrder={(data, actions) => onCreateOrder(data, actions)}
