@@ -187,3 +187,27 @@ ul.resources {
 /*! Records Page !*/
 
 /*! Contact Page !*/
+
+div.contact-wrapper {
+    margin: 100px;
+
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 50px;
+}
+
+div.contact-top {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    inline-size: auto;
+    overflow-wrap: break-word;
+    display: inline-block;
+    text-align: center;
+}
+
+ol.frequently-asked {
+    display: inline-block;
+    text-align: left;
+}
