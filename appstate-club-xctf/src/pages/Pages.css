@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* General */
+/*! General !*/
 
 html {
     background-color: rgb(250, 249, 246);
@@ -34,7 +34,14 @@ a {
     color: #edc40c;
 }
 
-/* Home Page*/
+/* General Reactive Settings */
+@media only screen and (max-width: 700px) {
+
+}
+
+
+/*! Home Page !*/
+
 
 div.home-wrapper {
     margin: 100px;
@@ -94,7 +101,12 @@ div.casual-txt {
     overflow-wrap: break-word;
 }
 
-/* Join Page */
+/* Home Reactive Settings */
+@media only screen and (max-width: 700px) {
+
+}
+
+/*! Join Page !*/
 
 div.join-wrapper {
     margin: 100px;
@@ -165,8 +177,13 @@ ul.resources {
     text-align: left;
 }
 
-/* Schedule Page */
+/* Join Reactive Settings */
+@media only screen and (max-width: 700px) {
 
-/* Records Page */
+}
 
-/* Contact Page */
+/*! Schedule Page !*/
+
+/*! Records Page !*/
+
+/*! Contact Page !*/
