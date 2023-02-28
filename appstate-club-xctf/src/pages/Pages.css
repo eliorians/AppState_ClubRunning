@@ -115,7 +115,7 @@ div.competitive-img {
     grid-column-end: 4;
 
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     overflow: hidden;
 }
 
@@ -125,7 +125,7 @@ div.casual-img {
     grid-column-end: 2;
 
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     overflow:hidden;
 }
 
@@ -152,48 +152,30 @@ div.casual-txt {
         grid-row: 1;
         grid-column-start: 1;
         grid-column-end: 4;
-    
-        text-align: center;
     }
     
     div.competitive-txt {
         grid-row: 2;
         grid-column-start: 1;
         grid-column-end: 4;
-    
-        inline-size: auto;
-        text-align: center;
-        overflow-wrap: break-word;
     }
     
     div.competitive-img {
         grid-row: 3;
         grid-column-start: 1;
         grid-column-end: 4;
-    
-        max-width: 100%;
-        max-height: auto;
-        overflow: hidden;
     }
     
     div.casual-img {
         grid-row: 5;
         grid-column-start: 1;
         grid-column-end: 4;
-    
-        max-width: 100%;
-        max-height: auto;
-        overflow:hidden;
     }
     
     div.casual-txt {
         grid-row: 4;
         grid-column-start: 1;
         grid-column-end: 4;
-        
-        inline-size: auto;
-        text-align: center;
-        overflow-wrap: break-word;
     }
 }
 
