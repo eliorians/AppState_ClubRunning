@@ -131,7 +131,7 @@ div.competitive-img {
     grid-row: 2;
     grid-column-start: 3;
     grid-column-end: 4;
-    
+
     width: 100%;
     height: auto;
     overflow: visible;
@@ -242,7 +242,7 @@ div.instagram {
 }
 
 iframe.instagram {
-    height: 550px;
+    height: 600px;
 }
 
 div.strava-summary {
@@ -278,7 +278,7 @@ ul.resources {
 @media only screen and (max-width: 1000px) {
 
     iframe.instagram {
-        height: 500px;
+        height: 400px;
     }
 }
 
@@ -289,7 +289,7 @@ ul.resources {
     }
 
     iframe.instagram {
-        height: 350px;
+        height: 300px;
     }
 }
 

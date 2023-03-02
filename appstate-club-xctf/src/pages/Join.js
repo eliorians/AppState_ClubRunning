@@ -35,7 +35,7 @@ const Join = () => {
         <div class='instagram'>
             <h2>Follow us on Instagram</h2>
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe title='instagram' class='instagram' allowtransparency="true" frameborder='0'  width='100%' height='550' scrolling="no" overflow='hidden' src="//lightwidget.com/widgets/c2a29ba19c2152ee9abedbb4e448a6c0.html"></iframe>
+            <iframe title='instagram' class='instagram' allowtransparency="true" frameborder='0'  width='100%' height='5050' scrolling="no" overflow='hidden' src="//lightwidget.com/widgets/c2a29ba19c2152ee9abedbb4e448a6c0.html"></iframe>
             {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
         </div>
         
