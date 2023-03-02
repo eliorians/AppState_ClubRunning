@@ -10,7 +10,7 @@ const initialOptions = {
 
 const Join = () => {
     return (
-
+    <PayPalScriptProvider options={initialOptions}>
     <div class='join-wrapper'>
 
         <div class='membership'>
@@ -27,9 +27,7 @@ const Join = () => {
         <div class='paypal'>
             <h2>Pay Membership Dues</h2>
             {/*Note: change payment amount in ./components/Checkout.js*/}
-            <PayPalScriptProvider options={initialOptions}>
-                <Checkout/>
-            </PayPalScriptProvider>
+            <Checkout/>
         </div>
 
         <div class='instagram-section'>
@@ -57,6 +55,7 @@ const Join = () => {
         </div>
 
     </div>
+    </PayPalScriptProvider>
     )
 };
 

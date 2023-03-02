@@ -8,6 +8,7 @@ const Checkout = () => {
         return actions.order.create({
             purchase_units: [
                 {
+                    description: 'Club Membership for 1 Academic Year',
                     amount: {
                         value: "35.00",
                         currency_code: "USD"
@@ -31,6 +32,7 @@ const Checkout = () => {
                     style={{ layout: "vertical" }}
                     createOrder={(data, actions) => onCreateOrder(data, actions)}
                     onApprove={(data, actions) => onApproveOrder(data, actions)}
+                    shippingPreference="NO_SHIPPING"
                 />
             )}
         </div>
