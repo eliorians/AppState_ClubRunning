@@ -1,6 +1,12 @@
 import React from "react";
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+import Checkout from "../components/Checkout";
 
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+const initialOptions = {
+    "client-id": "AY5L0amfOwDdWduoXKkT7ztE4QbHR696L0St2CbPq9RGFBeeuVpEdJ4xu4vUKQdmeopPROnKN-rOitfa",
+    currency: "USD",
+    intent: "capture",
+  };
 
 const Join = () => {
     return (
@@ -16,26 +22,26 @@ const Join = () => {
                 <li>Club dues are $35 per academic year. Pay cash to an officer, or through the website below. </li>
                 <li>Sign up for practice or races! Links to practice and race sheets can be found on the Schedule page. </li>
             </ol>
-
         </div>
 
         <div class='paypal'>
             <h2>Pay Membership Dues</h2>
-            <PayPalScriptProvider options={{'client-id': 'test', 'currency': 'USD',  }}>
-                <PayPalButtons style={{ layout: "horizontal" }} />
+            {/*Note: change payment amount in ./components/Checkout.js*/}
+            <PayPalScriptProvider options={initialOptions}>
+                <Checkout/>
             </PayPalScriptProvider>
         </div>
 
         <div class='instagram-section'>
             <h2>Follow us on Instagram</h2>
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe title='instagram' src="//lightwidget.com/widgets/c8b0c2d632b4562c83f1b365ee42d4de.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" width='100%' height='550px' frameborder='0' overflow='hidden'></iframe>
+            <iframe title='instagram' src="//lightwidget.com/widgets/18602613872d5f1293fe023973cb49b7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" width='100%' height='550px' frameborder='0' overflow='hidden'></iframe>
             {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
         </div>
         
         <div class='strava-summary'>
             <h2>Join our Strava Club</h2>
-            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='300' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='400' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
         </div>
 
         <div class='strava-feed'>

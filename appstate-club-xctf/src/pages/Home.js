@@ -25,6 +25,12 @@ const Home = () => {
             </div>
 
             <div class='competitive-img'>
+                {/* playing with idea of new picture when reduced
+                <picture>
+                    <source srcset={competitive_img}></source>
+                    <source srcset='' media='(max-width: 400px)'></source>
+                </picture>
+                */}
                 <img src = {competitive_img} alt='competitve_img'/>
             </div>
 

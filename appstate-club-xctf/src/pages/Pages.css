@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* General */
+/*! General !*/
 
 html {
     background-color: rgb(250, 249, 246);
@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    line-height: 3;
+    line-height: 2;
     font-family: 'Merriweather', serif;
 }
 
@@ -34,7 +34,52 @@ a {
     color: #edc40c;
 }
 
-/* Home Page*/
+/* General Reactive Settings */
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    li {
+        font-size: 14px;
+    }
+}
+
+
+/*! Home Page !*/
+
 
 div.home-wrapper {
     margin: 100px;
@@ -70,7 +115,7 @@ div.competitive-img {
     grid-column-end: 4;
 
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     overflow: hidden;
 }
 
@@ -80,7 +125,7 @@ div.casual-img {
     grid-column-end: 2;
 
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     overflow:hidden;
 }
 
@@ -94,7 +139,47 @@ div.casual-txt {
     overflow-wrap: break-word;
 }
 
-/* Join Page */
+/* Home Reactive Settings */
+@media only screen and (max-width: 1000px) {
+    
+    div.home-wrapper {    
+        display: inline-grid;
+        grid-template-rows: auto;
+        row-gap: 75px;
+    }
+        
+    div.welcome {
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.competitive-txt {
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.competitive-img {
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.casual-img {
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.casual-txt {
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
+/*! Join Page !*/
 
 div.join-wrapper {
     margin: 100px;
@@ -126,6 +211,8 @@ div.paypal {
     grid-column-end: 4;
 
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 div.instagram-section {
@@ -165,11 +252,17 @@ ul.resources {
     text-align: left;
 }
 
-/* Schedule Page */
+/* Join Reactive Settings */
+@media only screen and (max-width: 700px) {
 
-/* Records Page */
+}
 
-/* Contact Page */
+/*! Schedule Page !*/
+
+/*! Records Page !*/
+
+/*! Contact Page !*/
+
 div.contact-wrapper {
     margin: 100px;
 
@@ -193,4 +286,3 @@ ol.frequently-asked {
     display: inline-block;
     text-align: left;
 }
-
