@@ -37,6 +37,11 @@ a {
     color: #edc40c;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* General Reactive Settings */
 @media only screen and (max-width: 1000px) {
 
@@ -88,7 +93,7 @@ div.home-wrapper {
     margin: 100px;
 
     display: inline-grid;
-    grid-template-rows: auto 500px 600px;
+    grid-template-rows: auto;
     grid-template-columns: auto;
     column-gap: 50px;
     row-gap: 100px;
@@ -112,26 +117,6 @@ div.competitive-txt {
     overflow-wrap: break-word;
 }
 
-div.competitive-img {
-    grid-row: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
-
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-div.casual-img {
-    grid-row: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-    max-width: 100%;
-    height: auto;
-    overflow:hidden;
-}
-
 div.casual-txt {
     grid-row: 3;
     grid-column-start: 3;
@@ -140,6 +125,26 @@ div.casual-txt {
     inline-size: auto;
     text-align: center;
     overflow-wrap: break-word;
+}
+
+div.competitive-img {
+    grid-row: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+div.casual-img {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    width: 100%;
+    height: auto;
+    overflow: visible;
 }
 
 /* Home Reactive Settings */
