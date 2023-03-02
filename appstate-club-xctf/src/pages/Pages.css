@@ -211,6 +211,8 @@ div.paypal {
     grid-column-end: 4;
 
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 div.instagram-section {

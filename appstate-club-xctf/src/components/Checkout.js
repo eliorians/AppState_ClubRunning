@@ -25,7 +25,7 @@ const Checkout = () => {
     }
 
     return (
-        <div className="checkout">
+        <div>
             {isPending ? <p>Loading Payment...</p> : (
                 <PayPalButtons 
                     style={{ layout: "vertical" }}
