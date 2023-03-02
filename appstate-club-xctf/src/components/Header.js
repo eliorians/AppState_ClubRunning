@@ -27,6 +27,7 @@ const Header = () => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    {/* change the number compared to size.width here to adjust when hamburger menu appears */}
     useEffect(() => {
         if (size.width > 1000 && menuOpen) {
             setMenuOpen(false);
@@ -43,6 +44,7 @@ const Header = () => {
                 <Link to="/" className={classes.header__content__logo}>
                     <img src = {logo} width = {150} height = {150} alt = "Logo" />
                 </Link>
+                {/* change the number compared to size.width here to adjust when hamburger menu appears */}
                 <nav
                     className={`${classes.header__content__nav} ${
                         menuOpen && size.width < 1000 ? classes.isMenu : ""
