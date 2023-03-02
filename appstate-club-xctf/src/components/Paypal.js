@@ -1,7 +1,7 @@
 import React from 'react';
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 
-const Paypal = () => {
+const PayPal = () => {
     const [{ isPending }] = usePayPalScriptReducer();
 
     const onCreateOrder = (data,actions) => {
@@ -39,4 +39,4 @@ const Paypal = () => {
     );
 }
 
-export default Paypal;
+export default PayPal;

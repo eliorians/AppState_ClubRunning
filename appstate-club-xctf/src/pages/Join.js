@@ -1,5 +1,5 @@
 import React from "react";
-import Paypal from "../components/Paypal";
+import PayPal from "../components/Paypal";
 
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 const initialOptions = {
@@ -25,27 +25,27 @@ const Join = () => {
         </div>
 
         <div class='paypal'>
-            <h2>Pay Membership Dues</h2>
+            <h2>Pay Membership Dues ($35)</h2>
             <PayPalScriptProvider options={initialOptions}>
                 {/*Note: change payment amount in ./components/Checkout.js*/}
-                <Paypal/>
+                <PayPal/>
             </PayPalScriptProvider>
         </div>
 
-        <div class='instagram-section'>
+        <div class='instagram'>
             <h2>Follow us on Instagram</h2>
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe title='instagram' src="//lightwidget.com/widgets/18602613872d5f1293fe023973cb49b7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" width='100%' height='550px' frameborder='0' overflow='hidden'></iframe>
+            <iframe title='instagram' class='instagram' allowtransparency="true" frameborder='0'  width='100%' height='550' scrolling="no" overflow='hidden' src="//lightwidget.com/widgets/c2a29ba19c2152ee9abedbb4e448a6c0.html"></iframe>
             {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
         </div>
         
         <div class='strava-summary'>
             <h2>Join our Strava Club</h2>
-            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='400' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='auto' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
         </div>
 
         <div class='strava-feed'>
-            <iframe title='strava-feed' allowtransparency frameborder='0' height='550' width='100%' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true'></iframe>
+            <iframe title='strava-feed' allowtransparency frameborder='0' height='550' width='100%' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true'></iframe>
         </div>
 
         <div class='resources'>
