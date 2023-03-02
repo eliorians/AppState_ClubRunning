@@ -27,6 +27,7 @@ const Header = () => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    // eslint-disable-next-line no-lone-blocks
     {/* change the number compared to size.width here to adjust when hamburger menu appears */}
     useEffect(() => {
         if (size.width > 1000 && menuOpen) {

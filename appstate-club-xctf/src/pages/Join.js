@@ -3,9 +3,9 @@ import Checkout from "../components/Checkout";
 
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 const initialOptions = {
-    "client-id": "AY5L0amfOwDdWduoXKkT7ztE4QbHR696L0St2CbPq9RGFBeeuVpEdJ4xu4vUKQdmeopPROnKN-rOitfa",
-    currency: "USD",
-    intent: "capture",
+    'client-id': 'AY5L0amfOwDdWduoXKkT7ztE4QbHR696L0St2CbPq9RGFBeeuVpEdJ4xu4vUKQdmeopPROnKN-rOitfa',
+    'currency': 'USD',
+    'intent': 'capture',
   };
 
 const Join = () => {
