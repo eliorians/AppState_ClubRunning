@@ -1,5 +1,5 @@
 import React from "react";
-import Checkout from "../components/Checkout";
+import Paypal from "../components/Paypal";
 
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 const initialOptions = {
@@ -10,7 +10,7 @@ const initialOptions = {
 
 const Join = () => {
     return (
-    <PayPalScriptProvider options={initialOptions}>
+
     <div class='join-wrapper'>
 
         <div class='membership'>
@@ -26,8 +26,10 @@ const Join = () => {
 
         <div class='paypal'>
             <h2>Pay Membership Dues</h2>
-            {/*Note: change payment amount in ./components/Checkout.js*/}
-            <Checkout/>
+            <PayPalScriptProvider options={initialOptions}>
+                {/*Note: change payment amount in ./components/Checkout.js*/}
+                <Paypal/>
+            </PayPalScriptProvider>
         </div>
 
         <div class='instagram-section'>
@@ -53,9 +55,8 @@ const Join = () => {
                 <li><a href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
             </ul>
         </div>
-
     </div>
-    </PayPalScriptProvider>
+
     )
 };
 
