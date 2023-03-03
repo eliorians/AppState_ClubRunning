@@ -1,7 +1,7 @@
 import React from 'react';
 import './Pages.css';
 //Images
-import competitive_img from '../images/mcalpine.jpg';
+import competitive_img from '../images/mens-team.jpg';
 import casual_img from '../images/trashcan-falls.jpg';
 
 const Home = () => {
@@ -18,20 +18,14 @@ const Home = () => {
                 <h2>Competitive Athletes</h2>
                 <p align='left'>
                 If you’re looking for a competitive group to train and race with, you’ve found it. 
-                With the help of our workout coordinator, we provide you with a variety of workout options every week. 
+                During the fall semester we race cross country races, and track races are during the spring semester. With the help of our workout coordinator, we provide you with a variety of workout options every week.
                 Also, as a club under the National Intercollegiate Running Club Association (NIRCA), our team is able to travel throughout the semester to compete against other running clubs. 
                 If you meet the qualifications, you’ll be able to compete in NIRCA Regionals and even NIRCA Nationals! Further, we host our very own Mountaineer Invitational, inviting rival clubs to State Farm Fields to race it out.
                 </p>
             </div>
 
             <div class='competitive-img'>
-                {/* playing with idea of new picture when reduced
-                <picture>
-                    <source srcset={competitive_img}></source>
-                    <source srcset='' media='(max-width: 400px)'></source>
-                </picture>
-                */}
-                <img src = {competitive_img} alt='competitve_img'/>
+                <img src={competitive_img} alt='competitve_img'/>
             </div>
 
             <div class='casual-txt'>
@@ -44,7 +38,7 @@ const Home = () => {
             </div>
 
             <div class='casual-img'>
-                <img src = {casual_img} alt='competitve_img'/>
+                <img src = {casual_img} alt='casual_img'/>
             </div>
             
         </div>
