@@ -304,12 +304,20 @@ ul.resources {
 /**************************** Schedule Page ****************************/
 
 /**************************** Records Page ****************************/
+div.background-image {
+    margin: 100px;
+
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 50px;
+}
+
+
 
 /**************************** Contact Page ****************************/
 
 div.contact-wrapper {
     margin: 100px;
-
     display: grid;
     grid-template-rows: auto;
     row-gap: 50px;
