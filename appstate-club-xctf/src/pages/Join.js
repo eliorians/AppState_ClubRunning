@@ -1,12 +1,6 @@
 import React from "react";
-import Checkout from "../components/Checkout";
-
+import PayPal from "../components/Paypal";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
-const initialOptions = {
-    'client-id': 'AY5L0amfOwDdWduoXKkT7ztE4QbHR696L0St2CbPq9RGFBeeuVpEdJ4xu4vUKQdmeopPROnKN-rOitfa',
-    'currency': 'USD',
-    'intent': 'capture',
-  };
 
 const Join = () => {
     return (
@@ -26,37 +20,44 @@ const Join = () => {
 
         <div class='paypal'>
             <h2>Pay Membership Dues</h2>
-            {/*Note: change payment amount in ./components/Checkout.js*/}
-            <PayPalScriptProvider options={initialOptions}>
-                <Checkout/>
+            <p>Club dues are $35 per academic year, with a small $2 transaction fee if you pay through the website.</p>
+            
+            {/* price can be changed under ./components/PayPal.js */}
+            <PayPalScriptProvider 
+                options={{
+                    'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID, 
+                    'currency': 'USD',
+                    'intent': 'capture'
+                        }}>
+                <PayPal/>
             </PayPalScriptProvider>
         </div>
 
-        <div class='instagram-section'>
+        <div class='instagram'>
             <h2>Follow us on Instagram</h2>
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe title='instagram' src="//lightwidget.com/widgets/18602613872d5f1293fe023973cb49b7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" width='100%' height='550px' frameborder='0' overflow='hidden'></iframe>
+            <iframe title='instagram' class='instagram' allowtransparency="true" frameborder='0'  width='100%' height='5050' scrolling="no" overflow='hidden' src="//lightwidget.com/widgets/c2a29ba19c2152ee9abedbb4e448a6c0.html"></iframe>
             {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
         </div>
         
         <div class='strava-summary'>
             <h2>Join our Strava Club</h2>
-            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='400' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
+            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='auto' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false'></iframe>
         </div>
 
         <div class='strava-feed'>
-            <iframe title='strava-feed' allowtransparency frameborder='0' height='550' width='100%' scrolling='no' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true'></iframe>
+            <iframe title='strava-feed' allowtransparency frameborder='0' height='550' width='100%' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true'></iframe>
         </div>
 
         <div class='resources'>
             <h1>Other Resources</h1>
             <ul class='resources'>
-                <li><a href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing'>Club Photo Drive</a></li>
-                <li><a href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
+                <li><a class='resources' href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing'>Club Photo Drive</a></li>
+                <li><a className='resources' href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
             </ul>
         </div>
-
     </div>
+
     )
 };
 
