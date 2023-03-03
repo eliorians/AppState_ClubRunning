@@ -17,7 +17,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    line-height: 2;
+    line-height: 1.5;
     font-family: 'Merriweather', serif;
 }
 
@@ -280,6 +280,10 @@ ul.resources {
     iframe.instagram {
         height: 400px;
     }
+
+    a.resources {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -290,6 +294,10 @@ ul.resources {
 
     iframe.instagram {
         height: 300px;
+    }
+
+    a.resources {
+        font-size: 18px;
     }
 }
 

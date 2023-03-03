@@ -21,6 +21,7 @@ const Join = () => {
         <div class='paypal'>
             <h2>Pay Membership Dues</h2>
             <p>Club dues are $35 per academic year, with a small $2 transaction fee if you pay through the website.</p>
+            
             {/* price can be changed under ./components/PayPal.js */}
             <PayPalScriptProvider 
                 options={{
@@ -51,8 +52,8 @@ const Join = () => {
         <div class='resources'>
             <h1>Other Resources</h1>
             <ul class='resources'>
-                <li><a href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing'>Club Photo Drive</a></li>
-                <li><a href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
+                <li><a class='resources' href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing'>Club Photo Drive</a></li>
+                <li><a className='resources' href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
             </ul>
         </div>
     </div>
