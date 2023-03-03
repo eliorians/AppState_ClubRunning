@@ -2,6 +2,7 @@
 import { Fragment } from "react";
 import { Switch, Route } from "react-router-dom";
 //Pages
+import React from "react";
 import Home from "./pages/Home";
 import Join from "./pages/Join";
 import Schedule from "./pages/Schedule";

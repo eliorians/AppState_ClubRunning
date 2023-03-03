@@ -1,7 +1,22 @@
 import React from 'react';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Pages.css';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail', 'tempy', form.current, '5ND4JsCtJKSWsqO6m')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+        form.current.reset()
+    };
     return (
         <div class='contact-wrapper'>
             <div class = 'contact-top'>
@@ -20,17 +35,14 @@ const Contact = () => {
                 </ol>
             </div>
             <div class ='formbox'>
-                <h1>Contact us!</h1>
-                <form>
-                    <label> Name: 
-                        <input type="text" />
-                    </label> 
-                    <label> Email: 
-                        <input type="text" />
-                    </label>
-                    <label> Message: 
-                        <input type="text" />
-                    </label>
+                <form ref={form} onSubmit={sendEmail}>
+                    <label>Name</label>
+                    <input type="text" name="user_name" />
+                    <label>Email</label>
+                    <input type="email" name="user_email" />
+                    <label>Message</label>
+                    <textarea name="message" />
+                    <input type="submit" value="Send" />
                 </form>
             </div>
             {/*add a direction to where the emails would go}*/}
