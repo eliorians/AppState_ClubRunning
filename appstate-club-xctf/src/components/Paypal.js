@@ -3,15 +3,14 @@ import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 
 const PayPal = () => {
     const [{ isPending }] = usePayPalScriptReducer();
-
+    
     const onCreateOrder = (data,actions) => {
         return actions.order.create({
             purchase_units: [
                 {
-                    description: 'Club Membership for 1 Academic Year',
                     amount: {
-                        value: "35.00",
-                        currency_code: "USD"
+                        description: "Club Membership for 1 Academic Year",
+                        value: "37.00",
                     },
                 },
             ],
@@ -32,7 +31,7 @@ const PayPal = () => {
                     style={{ layout: "vertical" }}
                     createOrder={(data, actions) => onCreateOrder(data, actions)}
                     onApprove={(data, actions) => onApproveOrder(data, actions)}
-                    shippingPreference="NO_SHIPPING"
+                    shippingPreference={"NO_SHIPPING"}
                 />
             )}
         </div>

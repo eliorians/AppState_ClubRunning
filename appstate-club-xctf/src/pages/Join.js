@@ -1,12 +1,6 @@
 import React from "react";
 import PayPal from "../components/Paypal";
-
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
-const initialOptions = {
-    "client-id": "AY5L0amfOwDdWduoXKkT7ztE4QbHR696L0St2CbPq9RGFBeeuVpEdJ4xu4vUKQdmeopPROnKN-rOitfa",
-    currency: "USD",
-    intent: "capture",
-  };
 
 const Join = () => {
     return (
@@ -25,9 +19,15 @@ const Join = () => {
         </div>
 
         <div class='paypal'>
-            <h2>Pay Membership Dues ($35)</h2>
-            <PayPalScriptProvider options={initialOptions}>
-                {/*Note: change payment amount in ./components/Checkout.js*/}
+            <h2>Pay Membership Dues</h2>
+            <p>Club dues are $35 per academic year, with a small $2 transaction fee if you pay through the website.</p>
+            {/* price can be changed under ./components/PayPal.js */}
+            <PayPalScriptProvider 
+                options={{
+                    'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID, 
+                    'currency': 'USD',
+                    'intent': 'capture'
+                        }}>
                 <PayPal/>
             </PayPalScriptProvider>
         </div>
