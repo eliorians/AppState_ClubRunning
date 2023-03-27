@@ -324,37 +324,19 @@ div.schedule-wrapper {
 }
 
 /**************************** Records Page ****************************/
-div.background-image {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr;
 
-    column-gap: 50px;
-    row-gap: 50px;
+div.records-wrapper{
+    margin: 0px;
+}
+
+div.background-image {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    grid-template-columns: 1fr;
 }
 
-div.latest-records {
+div.records {
     margin: 100px;
-    margin-top: 100px;
-    grid-column-start: 1;
-    grid-column-end: 4; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/**************************** Records Page ****************************/
-
-div.background-image {
-    margin: 100px;
-
-    display: grid;
-    grid-template-rows: auto;
-    row-gap: 50px;
 }
 
 /**************************** Contact Page ****************************/
