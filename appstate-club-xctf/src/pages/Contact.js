@@ -19,22 +19,20 @@ const Contact = () => {
     };
     return (
         <div class='contact-wrapper'>
-            <div class = 'contact-top'>
-                <h1>FAQ</h1>
-                <ol class = 'frequently-asked'> 
-                    <li>el q1</li>
-                        <li>el a1</li>
-                    <li>el q2</li>
-                        <li>el a1</li>
-                    <li>el q3</li>
-                        <li>el a1</li>
-                    <li>el q4</li>
-                        <li>el a1</li>
-                    <li>el q5</li>
-                        <li>el a1</li>
-                </ol>
+            <div class = 'faq'>
+                <h1>Frequently Asked Questions</h1>
+                <h3>question</h3>
+                <p>answer</p>
+
+                <h3>question</h3>
+                <p>answer</p>
+
+                <h3>question</h3>
+                <p>answer</p>
             </div>
-            <div class ='formbox'>
+
+            <div class ='email'>
+                <h1>Email Us</h1>
                 <form ref={form} onSubmit={sendEmail}>
                     <label>Name</label>
                     <input type="text" name="user_name" />
