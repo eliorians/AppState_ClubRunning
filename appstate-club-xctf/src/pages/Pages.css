@@ -319,19 +319,33 @@ ul.resources {
 }
 
 /**************************** Schedule Page ****************************/
-
 div.schedule-wrapper {
     margin: 100px;
+}
 
+/**************************** Records Page ****************************/
+div.background-image {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr;
 
     column-gap: 50px;
     row-gap: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-columns: 1fr;
 }
 
-
+div.latest-records {
+    margin: 100px;
+    margin-top: 100px;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /**************************** Records Page ****************************/
 
@@ -381,4 +395,13 @@ div.email {
     grid-column-end: 4;
 
     text-align: center;
+}
+
+div.formbox{
+    text-align: center;
+    grid-template-rows: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    
 }
