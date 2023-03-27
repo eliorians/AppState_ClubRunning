@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
+import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import './Pages.css';
 
@@ -19,16 +20,18 @@ const Contact = () => {
     };
     return (
         <div class='contact-wrapper'>
+
             <div class = 'faq'>
-                <h1>Frequently Asked Questions</h1>
-                <h3>question</h3>
-                <p>answer</p>
+                <h1 class='faq-header'>Frequently Asked Questions</h1>
 
-                <h3>question</h3>
-                <p>answer</p>
+                <h3 class='q'>How fast do I need to be to join?</h3>
+                <p class='a'>There are no cuts in the club. We'll take you if you run a fifteen minute 5k or a fifteen minute mile.</p>
 
-                <h3>question</h3>
-                <p>answer</p>
+                <h3 class='q'>Can I join in the middle of the semester?</h3>
+                <p class='a'>Absolutely! We are always accepting new members, just follow the steps on the <Link to="/Join">Get Involved page.</Link></p>
+
+                <h3 class='q'>Do you have field events?</h3>
+                <p class='a'>Yes, most of the track meets we attend have field events. Reach out to us to ask about specific events.</p>
             </div>
 
             <div class ='email'>
