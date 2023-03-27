@@ -335,7 +335,7 @@ div.contact-wrapper {
     row-gap: 50px;
 }
 
-div.contact-top {
+div.faq {
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -345,8 +345,10 @@ div.contact-top {
     display: inline-block;
     text-align: center;
 }
-
-ol.frequently-asked {
-    display: inline-block;
-    text-align: left;
+div.email {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    text-align: center;
 }
