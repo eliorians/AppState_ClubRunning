@@ -2,7 +2,6 @@
 
 
 
-
 /**************************** General ****************************/
 
 html {
@@ -18,6 +17,12 @@ h1 {
 h2 {
     font-size: 36px;
     line-height: 1.5;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1;
     font-family: 'Merriweather', serif;
 }
 
@@ -54,6 +59,12 @@ img {
         font-size: 30px;
         line-height: 1.5;
     }
+
+    h3 {
+        font-size: 20px;
+        line-height: 1;
+        font-family: 'Merriweather', serif;
+    }
     
     p {
         font-size: 16px;
@@ -74,6 +85,12 @@ img {
     
     h2 {
         font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1;
+        font-family: 'Merriweather', serif;
     }
     
     p {
@@ -302,11 +319,17 @@ ul.resources {
 }
 
 /**************************** Schedule Page ****************************/
+div.schedule-wrapper {
+    margin: 100px;
+}
 
 /**************************** Records Page ****************************/
 div.background-image {
     display: grid;
     grid-template-rows: auto;
+    grid-template-columns: 1fr;
+
+    column-gap: 50px;
     row-gap: 50px;
     background-position: center;
     background-size: cover;
@@ -324,6 +347,16 @@ div.latest-records {
     align-items: center;
 }
 
+/**************************** Records Page ****************************/
+
+div.background-image {
+    margin: 100px;
+
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 50px;
+}
+
 /**************************** Contact Page ****************************/
 
 div.contact-wrapper {
@@ -333,7 +366,7 @@ div.contact-wrapper {
     row-gap: 50px;
 }
 
-div.contact-top {
+div.faq {
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -344,9 +377,24 @@ div.contact-top {
     text-align: center;
 }
 
-ol.frequently-asked {
-    display: inline-block;
-    text-align: left;
+h1.faq-header{
+    margin-bottom: 35px;
+}
+
+h3.q {
+    margin-bottom: 10px;
+}
+
+p.a {
+    margin-bottom: 65px;
+}
+
+div.email {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
 }
 
 div.formbox{
