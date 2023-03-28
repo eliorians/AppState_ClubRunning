@@ -1,7 +1,7 @@
 import React from 'react';
 import './Pages.css';
 //Images
-import competitive_img from '../images/mens-team.jpg';
+import competitive_img from '../images/mens-team1.jpg';
 import casual_img from '../images/trashcan-falls.jpg';
 
 const Home = () => {

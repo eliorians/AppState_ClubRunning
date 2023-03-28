@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
 
-
 /**************************** General ****************************/
 
 html {
@@ -45,6 +44,10 @@ a {
 img {
     max-width: 100%;
     height: auto;
+}
+
+iframe.excel {
+    max-width: 100%;
 }
 
 /* General Reactive Settings */
@@ -323,6 +326,37 @@ div.schedule-wrapper {
     margin: 100px;
 }
 
+div.calendar {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.practice-text {
+    margin-bottom: 50px;
+}
+
+div.practice {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+div.xc-race-text {
+    margin-bottom: 50px;
+}
+
+div.xc-race {
+    margin-bottom: 50px;
+}
+
+div.track-race-text {
+    margin-bottom: 50px;
+}
+
+div.track-race {
+    margin-bottom: 50px;
+}
+
 /**************************** Records Page ****************************/
 
 div.records-wrapper{
@@ -335,10 +369,9 @@ div.background-image {
     background-repeat: no-repeat; 
 }
 
-div.records{
+div.records {
     padding: 100px;
 }
-
 
 
 /**************************** Contact Page ****************************/

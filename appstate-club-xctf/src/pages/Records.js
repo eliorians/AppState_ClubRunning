@@ -3,7 +3,6 @@ import background from '../images/needtochange.jpeg'
 
 const Records  = () => {
     return (
-        
         <div class='records-wrapper'>
             <div class = 'background-image' style={{backgroundImage: `url(${background})`}}>
                 <div class = 'records'>
