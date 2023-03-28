@@ -364,14 +364,15 @@ div.records-wrapper{
 }
 
 div.background-image {
-    background-position: center;
+    background-position:top;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 div.records {
     padding: 100px;
 }
+
 
 /**************************** Contact Page ****************************/
 
