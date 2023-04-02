@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/**************************** General ****************************/
+
+html {
+    background-color: rgb(250, 249, 246);
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+}
+
+li {
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: #edc40c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe.excel {
+    max-width: 100%;
+}
+
+/* General Reactive Settings */
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 1;
+        font-family: 'Merriweather', serif;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1;
+        font-family: 'Merriweather', serif;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    li {
+        font-size: 14px;
+    }
+}
+
+
+/**************************** Home Page ****************************/
+
+
+div.home-wrapper {
+    margin: 100px;
+
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    column-gap: 50px;
+    row-gap: 100px;
+}
+    
+div.welcome {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+}
+
+div.competitive-txt {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    inline-size: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+div.casual-txt {
+    grid-row: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    inline-size: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+div.competitive-img {
+    grid-row: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+div.casual-img {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+/* Home Reactive Settings */
+@media only screen and (max-width: 1000px) {
+    
+    div.home-wrapper {    
+        display: inline-grid;
+        grid-template-rows: auto;
+        row-gap: 75px;
+    }
+        
+    div.welcome {
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.competitive-txt {
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.competitive-img {
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.casual-img {
+        grid-row: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    div.casual-txt {
+        grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    div.home-wrapper {    
+        margin: 50px;
+    }
+}
+
+/**************************** Join Page ****************************/
+
+div.join-wrapper {
+    margin: 100px;
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+div.membership {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+    inline-size: auto;
+    overflow-wrap: break-word;
+    
+}
+
+ol.membership {
+    display: inline-block;
+    text-align: left;
+}
+
+div.paypal {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+div.instagram {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+}
+
+iframe.instagram {
+    height: 600px;
+}
+
+div.strava-summary {
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+}
+
+div.strava-feed {
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+div.resources {
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    text-align: center;
+    inline-size: auto;
+    overflow-wrap: break-word;
+}
+
+ul.resources {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    iframe.instagram {
+        height: 400px;
+    }
+
+    a.resources {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    div.join-wrapper {
+        margin: 50px;
+    }
+
+    iframe.instagram {
+        height: 300px;
+    }
+
+    a.resources {
+        font-size: 18px;
+    }
+}
+
+/**************************** Schedule Page ****************************/
+div.schedule-wrapper {
+    margin: 100px;
+}
+
+div.calendar {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.practice-text {
+    margin-bottom: 50px;
+}
+
+div.practice {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+div.xc-race-text {
+    margin-bottom: 50px;
+}
+
+div.xc-race {
+    margin-bottom: 50px;
+}
+
+div.track-race-text {
+    margin-bottom: 50px;
+}
+
+div.track-race {
+    margin-bottom: 50px;
+}
+
+/**************************** Records Page ****************************/
+
+div.records-wrapper{
+    margin: 0px;
+}
+
+div.background-image {
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+div.records {
+    padding: 100px;
+}
+
+
+/**************************** Contact Page ****************************/
+
+div.contact-wrapper {
+    margin: 100px;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 50px;
+}
+
+div.faq {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    inline-size: auto;
+    overflow-wrap: break-word;
+    display: inline-block;
+    text-align: center;
+}
+
+h1.faq-header{
+    margin-bottom: 35px;
+}
+
+h3.q {
+    margin-bottom: 10px;
+}
+
+p.a {
+    margin-bottom: 65px;
+}
+
+div.email {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    text-align: center;
+}
+
+div.formbox{
+    text-align: center;
+    grid-template-rows: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    
+}
