@@ -357,6 +357,13 @@ div.track-race {
     margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 550px) {
+
+    div.schedule-wrapper {    
+        margin: 50px;
+    }
+}
+
 /**************************** Records Page ****************************/
 
 div.records-wrapper{
@@ -373,6 +380,12 @@ div.records {
     padding: 100px;
 }
 
+@media only screen and (max-width: 550px) {
+
+    div.records-wrapper {    
+        margin: 50px;
+    }
+}
 
 /**************************** Contact Page ****************************/
 
@@ -419,6 +432,11 @@ div.formbox{
     grid-template-rows: auto;
     grid-column-start: 1;
     grid-column-end: 4;
+}
 
-    
+@media only screen and (max-width: 550px) {
+
+    div.contact-wrapper {    
+        margin: 50px;
+    }
 }
