@@ -36,9 +36,9 @@ const Join = () => {
 
         <div class='instagram'>
             <h2 class='bottom-space'>Follow us on Instagram</h2>
-            <p class='button'><a class='button' href='https://www.instagram.com/appstate_clubxctrack/'>Follow Us</a></p>
-                {/*https://app.taggbox.com/widget/walls/home UNDER ELI.ORIANS@GMAIL*/}
-                <iframe title='instagram' class='instagram' src="https://widget.taggbox.com/127495" width='100%' frameBorder='0'></iframe>        
+                <p class='button'><a class='button' href='https://www.instagram.com/appstate_clubxctrack/'>Follow Us</a></p>
+                <iframe title='instagram' class='instagram' src="https://widget.taggbox.com/127495" width='100%' frameBorder='0'></iframe>     
+                {/*https://app.taggbox.com/widget/walls/home UNDER ELI.ORIANS@GMAIL*/}   
             </div>
         
         <div class='strava-summary'>

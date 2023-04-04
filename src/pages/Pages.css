@@ -50,6 +50,10 @@ iframe.excel {
     max-width: 100%;
 }
 
+.bottom-space {
+    margin-bottom: 25px;
+}
+
 /* General Reactive Settings */
 @media only screen and (max-width: 1000px) {
 
@@ -293,10 +297,6 @@ ul.resources {
     display: inline-block;
     text-align: center;
     list-style: none;
-}
-
-.bottom-space {
-    margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 1000px) {
