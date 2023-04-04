@@ -36,10 +36,10 @@ const Join = () => {
 
         <div class='instagram'>
             <h2>Follow us on Instagram</h2>
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe title='instagram' class='instagram' allowtransparency="true" frameborder='0'  width='100%' scrolling="no" overflow='hidden' src="//lightwidget.com/widgets/c2a29ba19c2152ee9abedbb4e448a6c0.html"></iframe>
-            {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
-        </div>
+            <a class='button' href='https://www.instagram.com/appstate_clubxctrack/'>Follow Us</a>
+                {/*https://app.taggbox.com/widget/walls/home UNDER ELI.ORIANS@GMAIL*/}
+                <iframe title='instagram' class='instagram' src="https://widget.taggbox.com/127495" width='100%' frameBorder='0'></iframe>        
+            </div>
         
         <div class='strava-summary'>
             <h2>Join our Strava Club</h2>

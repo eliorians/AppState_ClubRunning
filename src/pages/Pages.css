@@ -262,7 +262,7 @@ div.instagram {
 }
 
 iframe.instagram {
-    height: 600px;
+    height: 325px;
 }
 
 div.strava-summary {
@@ -313,7 +313,7 @@ ul.resources {
     }
 
     iframe.instagram {
-        height: 300px;
+        height: 440px;
     }
 
     a.resources {
