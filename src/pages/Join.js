@@ -21,12 +21,12 @@ const Join = () => {
 
         <div class='paypal'>
             <h2>Pay Membership Dues</h2>
-            <p>Club dues are $35 per academic year, with a small $2 transaction fee if you pay through the website.</p>
+            <p class='bottom-space'>Club dues are $35 per academic year, with a small $2 transaction fee if you pay through the website.</p>
             
             {/* price can be changed under ./components/PayPal.js */}
             <PayPalScriptProvider 
                 options={{
-                    'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID, 
+                    'client-id': 'Ae1kfybziyw-Uc__nejphkFuvm81zE5rdyLv2KgaHFjaZM2JISw9BAehY9Adn8jtf0JwurpcJMR5Wcgi', 
                     'currency': 'USD',
                     'intent': 'capture'
                         }}>
@@ -35,19 +35,19 @@ const Join = () => {
         </div>
 
         <div class='instagram'>
-            <h2>Follow us on Instagram</h2>
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe title='instagram' class='instagram' allowtransparency="true" frameborder='0'  width='100%' scrolling="no" overflow='hidden' src="//lightwidget.com/widgets/c2a29ba19c2152ee9abedbb4e448a6c0.html"></iframe>
-            {/*instagram widget: https://lightwidget.com/ under eli.orians@gmail.com account*/}
-        </div>
+            <h2 class='bottom-space'>Follow us on Instagram</h2>
+                <p class='button'><a class='button' href='https://www.instagram.com/appstate_clubxctrack/'>Follow Us</a></p>
+                <iframe title='instagram' class='instagram' src="https://widget.taggbox.com/127495" width='100%' frameBorder='0'></iframe>     
+                {/*https://app.taggbox.com/widget/walls/home UNDER ELI.ORIANS@GMAIL*/}   
+            </div>
         
         <div class='strava-summary'>
-            <h2>Join our Strava Club</h2>
-            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='auto' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false' target='_blank' rel='noreferrer'></iframe>
+            <h2 class='bottom-space'>Join our Strava Club</h2>
+            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='500px' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false' target='_blank' rel='noreferrer'></iframe>
         </div>
 
         <div class='strava-feed'>
-            <iframe title='strava-feed' allowtransparency frameborder='0' height='550' width='100%' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true' target='_blank' rel='noreferrer'></iframe>
+            <iframe title='strava-feed' allowtransparency frameborder='0' height='500' width='100%' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=true' target='_blank' rel='noreferrer'></iframe>
         </div>
 
         <div class='resources'>
