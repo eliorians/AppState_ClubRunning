@@ -26,7 +26,7 @@ const Join = () => {
             {/* price can be changed under ./components/PayPal.js */}
             <PayPalScriptProvider 
                 options={{
-                    'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID, 
+                    'client-id': 'Ae1kfybziyw-Uc__nejphkFuvm81zE5rdyLv2KgaHFjaZM2JISw9BAehY9Adn8jtf0JwurpcJMR5Wcgi', 
                     'currency': 'USD',
                     'intent': 'capture'
                         }}>
