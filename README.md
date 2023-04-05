@@ -2,6 +2,8 @@
 
 A website for Appalachian State's Club Cross Country & Track Team using React.
 
+https://appstateclubxctrack.netlify.app/
+
 Collaborators: Eli Orians, Joseph Maradiaga
 Spring 2022
 
