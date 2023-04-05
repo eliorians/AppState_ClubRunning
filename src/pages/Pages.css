@@ -8,33 +8,36 @@ html {
 }
 
 h1 {
-    font-size: 42px;
-    line-height: 1.5;
     font-family: 'Merriweather', serif;
+    font-size: 42px;
+    line-height: 1.25;
 }
 
 h2 {
+    font-family: 'Merriweather', serif;
     font-size: 36px;
     line-height: 1.5;
-    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 1;
     font-family: 'Merriweather', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 p {
-    font-size: 20px;
-    line-height: 2;
     font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
 }
 
 li {
+    font-family: 'Merriweather', serif;
     font-size: 20px;
     line-height: 2;
-    font-family: 'Merriweather', serif;
 }
 
 a {
@@ -50,32 +53,31 @@ iframe.excel {
     max-width: 100%;
 }
 
-.bottom-space {
-    margin-bottom: 25px;
-}
-
 /* General Reactive Settings */
 @media only screen and (max-width: 1000px) {
 
     h1 {
         font-size: 36px;
-        line-height: 1.5;
+        line-height: 1.25;
+        margin-bottom: 15px;
     }
     
     h2 {
         font-size: 30px;
-        line-height: 1.5;
+        line-height: 1.25;
+        margin-bottom: 15px;
     }
 
     h3 {
         font-size: 20px;
-        line-height: 1;
+        line-height: 1.25;
         font-family: 'Merriweather', serif;
+        margin-bottom: 15px;
     }
     
     p {
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 1.75;
     }
     
     li {
@@ -120,7 +122,7 @@ div.home-wrapper {
     grid-template-rows: auto;
     grid-template-columns: auto;
     column-gap: 50px;
-    row-gap: 100px;
+    row-gap: 50px;
 }
     
 div.welcome {
@@ -335,25 +337,13 @@ div.calendar {
     text-align: center;
 }
 
-div.practice-text {
-    margin-bottom: 50px;
-}
-
 div.practice {
     margin-bottom: 50px;
     max-width: 100%;
     height: auto;
 }
 
-div.xc-race-text {
-    margin-bottom: 50px;
-}
-
 div.xc-race {
-    margin-bottom: 50px;
-}
-
-div.track-race-text {
     margin-bottom: 50px;
 }
 
