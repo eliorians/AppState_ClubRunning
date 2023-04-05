@@ -5,7 +5,7 @@ const Schedule = () => {
         <div class='schedule-wrapper'>
 
             <div class='calendar'>
-                <h3><a href='https://calendar.google.com/calendar/u/3?cid=YXBwc3RhdGVjbHVieGN0cmFja0BnbWFpbC5jb20'>Subscribe to our Google Calendar</a></h3>
+                <p><a class='button' href='https://calendar.google.com/calendar/u/3?cid=YXBwc3RhdGVjbHVieGN0cmFja0BnbWFpbC5jb20'>Subscribe to our Google Calendar</a></p>
             </div>
 
             <div class='practice-text'>
