@@ -405,6 +405,8 @@ div.records-wrapper{
 }
 
 div.background-image {
+    width: 100%;
+    min-height:100vh;
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -474,6 +476,24 @@ div.formbox{
     grid-template-rows: auto;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+input.button {
+    color: white;
+    background-color: #edc40c;
+
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+    cursor: pointer;
+    transition-duration: 0.4s
 }
 
 @media only screen and (max-width: 550px) {
