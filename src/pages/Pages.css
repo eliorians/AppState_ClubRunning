@@ -50,6 +50,10 @@ iframe.excel {
     max-width: 100%;
 }
 
+.bottom-space {
+    margin-bottom: 25px;
+}
+
 /* General Reactive Settings */
 @media only screen and (max-width: 1000px) {
 
@@ -262,7 +266,7 @@ div.instagram {
 }
 
 iframe.instagram {
-    height: 600px;
+    height: 325px;
 }
 
 div.strava-summary {
@@ -313,7 +317,7 @@ ul.resources {
     }
 
     iframe.instagram {
-        height: 300px;
+        height: 440px;
     }
 
     a.resources {
