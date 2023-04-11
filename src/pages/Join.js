@@ -36,7 +36,7 @@ const Join = () => {
 
         <div class='instagram'>
             <h2>Follow us on Instagram</h2>
-                <p><a class='button' href='https://www.instagram.com/appstate_clubxctrack/'>Follow Us</a></p>
+                <a class='button' href='https://www.instagram.com/appstate_clubxctrack/'>Follow Us</a>
                 <iframe title='instagram' class='instagram' src="https://widget.taggbox.com/127495" width='100%' frameBorder='0'></iframe>     
                 {/*https://app.taggbox.com/widget/walls/home UNDER ELI.ORIANS@GMAIL*/}
             </div>
