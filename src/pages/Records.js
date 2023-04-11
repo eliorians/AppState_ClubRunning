@@ -1,5 +1,5 @@
 import React from "react";
-import background from '../images/needtochange.jpeg'
+import background from '../images/Mountains3.jpg'
 
 const Records  = () => {
     return (
