@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
-
 /**************************** General ****************************/
 
 html {
@@ -8,37 +7,62 @@ html {
 }
 
 h1 {
-    font-size: 42px;
-    line-height: 1.5;
     font-family: 'Merriweather', serif;
+    font-size: 42px;
+    line-height: 1.25;
 }
 
 h2 {
+    font-family: 'Merriweather', serif;
     font-size: 36px;
     line-height: 1.5;
-    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 1;
     font-family: 'Merriweather', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 p {
-    font-size: 20px;
-    line-height: 2;
     font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 1.75;
+    margin-bottom: 25px;
 }
 
 li {
+    font-family: 'Merriweather', serif;
     font-size: 20px;
     line-height: 2;
-    font-family: 'Merriweather', serif;
 }
 
 a {
     color: #edc40c;
+}
+
+a.button {
+    color: white;
+    background-color: #edc40c;
+
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+    cursor: pointer;
+    transition-duration: 0.4s
+}
+
+a.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 img {
@@ -50,37 +74,38 @@ iframe.excel {
     max-width: 100%;
 }
 
-.bottom-space {
-    margin-bottom: 25px;
-}
-
 /* General Reactive Settings */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
     h1 {
         font-size: 36px;
-        line-height: 1.5;
+        line-height: 1.25;
     }
     
     h2 {
         font-size: 30px;
-        line-height: 1.5;
+        line-height: 1.25;
     }
 
     h3 {
         font-size: 20px;
-        line-height: 1;
+        line-height: 1.25;
         font-family: 'Merriweather', serif;
     }
     
     p {
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 1.75;
     }
     
     li {
         font-size: 16px;
         line-height: 1.5;
+    }
+
+    a.button {
+        font-size: 14px;
+        padding: 10px 15px;
     }
 }
 
@@ -107,6 +132,11 @@ iframe.excel {
     li {
         font-size: 14px;
     }
+
+    a.button {
+        font-size: 12px;
+        padding: 7px 20px;
+    }
 }
 
 
@@ -120,7 +150,7 @@ div.home-wrapper {
     grid-template-rows: auto;
     grid-template-columns: auto;
     column-gap: 50px;
-    row-gap: 100px;
+    row-gap: 50px;
 }
     
 div.welcome {
@@ -335,25 +365,13 @@ div.calendar {
     text-align: center;
 }
 
-div.practice-text {
-    margin-bottom: 50px;
-}
-
 div.practice {
     margin-bottom: 50px;
     max-width: 100%;
     height: auto;
 }
 
-div.xc-race-text {
-    margin-bottom: 50px;
-}
-
 div.xc-race {
-    margin-bottom: 50px;
-}
-
-div.track-race-text {
     margin-bottom: 50px;
 }
 
@@ -365,6 +383,18 @@ div.track-race {
 
     div.schedule-wrapper {    
         margin: 50px;
+    }
+
+    div.practice {
+        display: none;
+    }
+
+    div.xc-race {
+        display: none;
+    }
+    
+    div.track-race {
+        display: none;
     }
 }
 
@@ -381,25 +411,7 @@ div.background-image {
 }
 
 p.button {
-    padding: 50px;
-}
-a.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s
-
-}
-  
-a.button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-top: 75px;
 }
 
 div.records {
@@ -410,6 +422,10 @@ div.records {
 
     div.records-wrapper {    
         margin: 50px;
+    }
+
+    div.records {
+        display: none;
     }
 }
 
