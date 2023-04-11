@@ -413,8 +413,8 @@ div.background-image {
     background-repeat: no-repeat; 
 }
 
-div.records-button {
-    margin: 20px;
+p.records-button {
+    padding-top: 75px;
 }
 
 div.records {
