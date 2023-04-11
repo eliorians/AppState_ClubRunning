@@ -44,6 +44,7 @@ const Contact = () => {
                     <h3>Message</h3>
                     <textarea name="message" />
                     <input type="submit" value="Send"/>
+                    
                 </form>
             </div>
             {/*add a direction to where the emails would go}*/}
