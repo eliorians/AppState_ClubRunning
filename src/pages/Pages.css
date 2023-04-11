@@ -407,6 +407,8 @@ div.records-wrapper{
 div.background-image {
     width: 100%;
     min-height:100vh;
+    min-width: 100%;
+    height: auto;
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat; 
