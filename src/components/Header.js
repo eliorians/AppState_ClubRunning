@@ -43,7 +43,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    <img src = {logo} width = {150} height = {150} alt = "Logo" />
+                    <img className='logo' src={logo} width={150} height={150} alt = "Logo" />
                 </Link>
                 {/* change the number compared to size.width here to adjust when hamburger menu appears */}
                 <nav
