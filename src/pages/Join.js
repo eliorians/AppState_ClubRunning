@@ -43,7 +43,7 @@ const Join = () => {
         
         <div class='strava-summary'>
             <h2>Join our Strava Club</h2>
-            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='500px' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false' target='_blank' rel='noreferrer'></iframe>
+            <iframe title='strava-summary' allowtransparency frameborder='0' height='160' width='350px' scrolling='no' overflow='hidden' src='https://www.strava.com/clubs/552116/latest-rides/9f64a45cda2e8e81c61aa3ad4af060e9372043a8?show_rides=false' target='_blank' rel='noreferrer'></iframe>
         </div>
 
         <div class='strava-feed'>

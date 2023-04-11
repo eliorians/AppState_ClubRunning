@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
-
 /**************************** General ****************************/
 
 html {
@@ -50,11 +49,11 @@ a.button {
 
     border: none;
     border-radius: 10px;
-    padding: 15px 40px;
+    padding: 12px 35px;
 
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     font-family: 'Merriweather', serif;
     
@@ -103,6 +102,11 @@ iframe.excel {
         font-size: 16px;
         line-height: 1.5;
     }
+
+    a.button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -127,6 +131,11 @@ iframe.excel {
     
     li {
         font-size: 14px;
+    }
+
+    a.button {
+        font-size: 12px;
+        padding: 7px 20px;
     }
 }
 
@@ -375,6 +384,18 @@ div.track-race {
     div.schedule-wrapper {    
         margin: 50px;
     }
+
+    div.practice {
+        display: none;
+    }
+
+    div.xc-race {
+        display: none;
+    }
+    
+    div.track-race {
+        display: none;
+    }
 }
 
 /**************************** Records Page ****************************/
@@ -401,6 +422,10 @@ div.records {
 
     div.records-wrapper {    
         margin: 50px;
+    }
+
+    div.records {
+        display: none;
     }
 }
 
