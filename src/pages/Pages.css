@@ -362,11 +362,12 @@ ul.resources {
 
 /**************************** Schedule Page ****************************/
 div.schedule-wrapper {
-    margin: 100px;
+    margin: 75px;
 }
 
 div.calendar {
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
