@@ -37,14 +37,13 @@ const Contact = () => {
             <div class ='email'>
                 <h1>Email Us</h1>
                 <form ref={form} onSubmit={sendEmail}>
-                    <h3>Name</h3>
+                    <h3>Name</h3 >
                     <input type="text" name="user_name" />
-                    <h2>Email</h2>
+                    <h3>Email</h3>
                     <input type="email" name="user_email" />
                     <h3>Message</h3>
                     <textarea name="message" />
-                    <input type="submit" value="Send"/>
-                    
+                    <center><input class = "button" type="submit" value="Send"/></center>
                 </form>
             </div>
             {/*add a direction to where the emails would go}*/}
