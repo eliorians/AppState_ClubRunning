@@ -321,14 +321,11 @@ div.resources {
     grid-row: 6;
     grid-column-start: 1;
     grid-column-end: 4;
-    
     text-align: center;
-    inline-size: auto;
-    overflow-wrap: break-word;
 }
 
 ul.resources {
-    display: inline-block;
+    padding: 0;
     text-align: center;
     list-style: none;
 }
@@ -434,6 +431,10 @@ div.records {
     div.records {
         display: none;
     }
+
+    p.records-button {
+        font-size: 20px;
+    }
 }
 
 /**************************** Contact Page ****************************/
@@ -446,7 +447,7 @@ div.contact-wrapper {
 }
 
 div.faq {
-    grid-row: 1;
+    grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
 
@@ -456,20 +457,17 @@ div.faq {
     text-align: center;
 }
 
-h1.faq-header{
-    margin-bottom: 35px;
+.faq-header{
+    margin-bottom: 45px;
 }
 
-h3.q {
-    margin-bottom: 10px;
-}
-
-p.a {
-    margin-bottom: 65px;
+img.qa {
+    width: 800px;
+    margin-bottom: 50px;
 }
 
 div.email {
-    grid-row: 2;
+    grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
     border: 1px solid rgb(44, 41, 38);
@@ -480,44 +478,25 @@ div.email {
     position: relative;
 }
 
-div.formbox{
+div.form-box {
     text-align: center;
     grid-template-rows: auto;
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
-.form-box input,
-textarea {
-  display: block;
-  width: 100%;
-  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
-  margin: 0.9vw 0;
-  border: 0;
-  border-radius: 5px;
-  font-size: 20px;
+.form-box input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    margin: 0.9vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 .form-box textarea {
   height: 15vh;
-}
-
-input.button {
-    color: white;
-    background-color: #edc40c;
-
-    border: none;
-    border-radius: 10px;
-    padding: 12px 35px;
-
-    display: inline-block;
-    text-align: center;
-    font-size: 16px;
-    text-decoration: none;
-    font-family: 'Merriweather', serif;
-    
-    cursor: pointer;
-    transition-duration: 0.4s
 }
 
 @media only screen and (max-width: 550px) {
