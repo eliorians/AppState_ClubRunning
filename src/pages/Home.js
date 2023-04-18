@@ -26,7 +26,7 @@ const Home = () => {
             </div>
 
             <div class='competitive-img'>
-                <img src={img1} alt='competitve_img'/>
+                <img src={img1} alt='err'/>
             </div>
 
             <div class='casual-txt'>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
 
             <div class='casual-img'>
-                <img src = {img2} alt='casual_img'/>
+                <img src = {img2} alt='err'/>
             </div>
             
         </div>
