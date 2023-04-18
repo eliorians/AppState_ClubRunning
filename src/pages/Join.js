@@ -54,7 +54,7 @@ const Join = () => {
             <h1>Other Resources</h1>
             <ul class='resources'>
                 <li><a class='resources' href='https://drive.google.com/drive/folders/1RVJ1oUVhk8th2MOK0yAqurr7LcPA_azW?usp=sharing' target='_blank' rel='noreferrer'>Club Photo Drive</a></li>
-                <li><a className='resources' href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true' target='_blank' rel='noreferrer'>Our Running Locations</a></li>  {/*Improve this by creating a list of strava or garmin routes*/}
+                <li><a className='resources' href='https://docs.google.com/document/d/1X61mcZ-Qzb3UOtF9QNvy_FvNOf3Kknn0/edit?usp=sharing&ouid=104804195159131396145&rtpof=true&sd=true' target='_blank' rel='noreferrer'>Club Running Locations</a></li>
             </ul>
         </div>
     </div>
