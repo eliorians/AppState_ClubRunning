@@ -2,6 +2,10 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import { Link } from "react-router-dom";
 import './Pages.css';
+import img1 from '../images/mens-track1.jpeg';
+import img2 from '../images/womens-race2.jpg';
+import img3 from '../images/trashcan-falls.jpg';
+
 
 export const Contact = () => {
     const form = useRef();
@@ -25,14 +29,19 @@ export const Contact = () => {
 
                 <h3 class='q'>How fast do I need to be to join?</h3>
                 <p class='a'>There are no cuts in the club. We'll take you if you run a fifteen minute 5k or a fifteen minute mile.</p>
+                <img class='qa' src={img1} alt='err'/>
 
                 <h3 class='q'>Can I join in the middle of the semester?</h3>
                 <p class='a'>Absolutely! We are always accepting new members, just follow the steps on the <Link to="/Join">Get Involved page.</Link></p>
+                <img class='qa' src={img2} alt='err'/>
+
 
                 <h3 class='q'>Do you have field events?</h3>
                 <p class='a'>Yes, most of the track meets we attend have field events. Reach out to us to ask about specific events.</p>
+                <img class='qa' src={img3} alt='err'/>
             </div>
-
+            
+            {/*setup via emailJS -> appstateclubxctrack@gmail, password: runningsucks*/}
             <div class ='email'>
                 <h1>Email Us</h1>
                 <form ref={form} onSubmit={sendEmail}>

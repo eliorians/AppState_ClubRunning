@@ -321,14 +321,11 @@ div.resources {
     grid-row: 6;
     grid-column-start: 1;
     grid-column-end: 4;
-    
     text-align: center;
-    inline-size: auto;
-    overflow-wrap: break-word;
 }
 
 ul.resources {
-    display: inline-block;
+    padding: 0;
     text-align: center;
     list-style: none;
 }
@@ -434,6 +431,10 @@ div.records {
     div.records {
         display: none;
     }
+
+    p.records-button {
+        font-size: 20px;
+    }
 }
 
 /**************************** Contact Page ****************************/
@@ -445,33 +446,21 @@ div.contact-wrapper {
     row-gap: 50px;
 }
 
-div.faq {
+div.email {
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
 
-    inline-size: auto;
-    overflow-wrap: break-word;
-    display: inline-block;
     text-align: center;
 }
 
-h1.faq-header{
-    margin-bottom: 35px;
-}
-
-h3.q {
-    margin-bottom: 10px;
-}
-
-p.a {
-    margin-bottom: 65px;
-}
-
-div.email {
+div.faq {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
+    inline-size: auto;
+    overflow-wrap: break-word;
+    display: inline-block;
     border: 1px solid rgb(44, 41, 38);
     text-align: center;
     min-width: 100%;
@@ -480,11 +469,13 @@ div.email {
     position: relative;
 }
 
-div.formbox{
-    text-align: center;
-    grid-template-rows: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
+.faq-header{
+    margin-bottom: 45px;
+}
+
+img.qa {
+    width: 800px;
+    margin-bottom: 50px;
 }
 
 .form-box input,
