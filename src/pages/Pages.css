@@ -10,6 +10,7 @@ h1 {
     font-family: 'Merriweather', serif;
     font-size: 42px;
     line-height: 1.25;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -429,10 +430,6 @@ div.records {
 }
 
 @media only screen and (max-width: 550px) {
-
-    div.records-wrapper {    
-        margin: 50px;
-    }
 
     div.records {
         display: none;
