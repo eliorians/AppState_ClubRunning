@@ -429,11 +429,6 @@ div.records {
 }
 
 @media only screen and (max-width: 550px) {
-
-    div.records-wrapper {    
-        margin: 50px;
-    }
-
     div.records {
         display: none;
     }
@@ -475,7 +470,7 @@ div.email {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
-    border: 1px solid red;
+    border: 1px solid rgb(44, 41, 38);
     text-align: center;
     min-width: 100%;
     margin: 0vw;

@@ -1,20 +1,19 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 import { Link } from "react-router-dom";
-import emailjs from '@emailjs/browser';
 import './Pages.css';
 
-const Contact = () => {
+export const Contact = () => {
     const form = useRef();
-
+  
     const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('gmail', 'tempy', form.current, '5ND4JsCtJKSWsqO6m')
+      e.preventDefault();
+  
+      emailjs.sendForm('gmail', 'email', form.current, '3UgW30kJmc-qJJuQT')
         .then((result) => {
-          console.log(result.text);
+            console.log(result.text);
         }, (error) => {
-          console.log(error.text);
+            console.log(error.text);
         });
         form.current.reset()
     };
