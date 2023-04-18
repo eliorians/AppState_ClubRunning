@@ -487,8 +487,7 @@ div.formbox{
     grid-column-end: 4;
 }
 
-.form-box input,
-textarea {
+.form-box input {
   display: block;
   width: 100%;
   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
@@ -500,24 +499,6 @@ textarea {
 
 .form-box textarea {
   height: 15vh;
-}
-
-input.button {
-    color: white;
-    background-color: #edc40c;
-
-    border: none;
-    border-radius: 10px;
-    padding: 12px 35px;
-
-    display: inline-block;
-    text-align: center;
-    font-size: 16px;
-    text-decoration: none;
-    font-family: 'Merriweather', serif;
-    
-    cursor: pointer;
-    transition-duration: 0.4s
 }
 
 @media only screen and (max-width: 550px) {
