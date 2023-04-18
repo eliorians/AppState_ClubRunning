@@ -485,14 +485,15 @@ div.form-box {
     grid-column-end: 4;
 }
 
-.form-box input {
-    display: block;
-    width: 100%;
-    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
-    margin: 0.9vw 0;
-    border: 0;
-    border-radius: 5px;
-    font-size: 20px;
+.form-box input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 .form-box textarea {
