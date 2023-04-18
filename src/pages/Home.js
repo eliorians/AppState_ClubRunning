@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pages.css';
-//Images
+import { Link } from "react-router-dom";
 import competitive_img from '../images/mens-team1.jpg';
 import casual_img from '../images/trashcan-falls.jpg';
 
@@ -22,6 +22,7 @@ const Home = () => {
                 Also, as a club under the National Intercollegiate Running Club Association (NIRCA), our team is able to travel throughout the semester to compete against other running clubs. 
                 If you meet the qualifications, you’ll be able to compete in NIRCA Regionals and even NIRCA Nationals! Further, we host our very own Mountaineer Invitational, inviting rival clubs to State Farm Fields to race it out.
                 </p>
+                <Link to="/Join" class='button'>How to join</Link>
             </div>
 
             <div class='competitive-img'>
@@ -35,6 +36,7 @@ const Home = () => {
                 We accept runners of all levels and have no prerequisites to join. Also, there are no attendance requirements, come as often or as little as you want and get out what you put in. 
                 Come explore Boone’s beautiful trails with us or meet new friends at our social events too.
                 </p>
+                <Link to="/Join" class='button'>Learn more</Link>
             </div>
 
             <div class='casual-img'>
