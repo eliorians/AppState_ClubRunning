@@ -1,8 +1,8 @@
 import React from 'react';
 import './Pages.css';
 import { Link } from "react-router-dom";
-import competitive_img from '../images/mens-team1.jpg';
-import casual_img from '../images/trashcan-falls.jpg';
+import img1 from '../images/mens-team1.jpg';
+import img2 from '../images/womens-team2.jpg';
 
 const Home = () => {
     return (
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
 
             <div class='competitive-img'>
-                <img src={competitive_img} alt='competitve_img'/>
+                <img src={img1} alt='err'/>
             </div>
 
             <div class='casual-txt'>
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
 
             <div class='casual-img'>
-                <img src = {casual_img} alt='casual_img'/>
+                <img src = {img2} alt='err'/>
             </div>
             
         </div>
