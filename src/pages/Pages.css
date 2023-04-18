@@ -411,6 +411,8 @@ div.records-wrapper{
 div.background-image {
     width: 100%;
     min-height:100vh;
+    min-width: 100%;
+    height: auto;
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -456,11 +458,15 @@ div.faq {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
-
     inline-size: auto;
     overflow-wrap: break-word;
     display: inline-block;
+    border: 1px solid rgb(44, 41, 38);
     text-align: center;
+    min-width: 100%;
+    margin: 0vw;
+    padding: 5vw;
+    position: relative;
 }
 
 .faq-header{
@@ -470,6 +476,39 @@ div.faq {
 img.qa {
     width: 800px;
     margin-bottom: 50px;
+}
+
+.form-box input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.form-box textarea {
+  height: 15vh;
+}
+
+input.button {
+    color: white;
+    background-color: #edc40c;
+
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+    cursor: pointer;
+    transition-duration: 0.4s
 }
 
 @media only screen and (max-width: 550px) {

@@ -5,7 +5,7 @@ const Records  = () => {
     return (
         <div class='records-wrapper'>
             <div class = 'background-image' style={{backgroundImage: `url(${background})`}}>
-   
+ 
                 <center><p class='records-button'><a class='button' href="https://docs.google.com/spreadsheets/d/1x7RUIj6KCTUKUYUShmq8UoEaAgyULV9Ewr9Iqh_H8p4/edit?usp=sharing">Club Records Google Doc</a></p></center>
                 
                 <div class = 'records'>
