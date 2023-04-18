@@ -475,8 +475,12 @@ div.email {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 4;
-
+    border: 1px solid red;
     text-align: center;
+    min-width: 100%;
+    margin: 0vw;
+    padding: 5vw;
+    position: relative;
 }
 
 div.formbox{
@@ -484,6 +488,21 @@ div.formbox{
     grid-template-rows: auto;
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+.form-box input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.form-box textarea {
+  height: 15vh;
 }
 
 input.button {

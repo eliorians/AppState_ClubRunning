@@ -37,17 +37,12 @@ const Contact = () => {
             <div class ='email'>
                 <h1>Email Us</h1>
                 <form ref={form} onSubmit={sendEmail}>
-                    <h3>Name</h3 >
-                    <input type="text" name="user_name" />
-                    <h3>Email</h3>
-                    <input type="email" name="user_email" />
-                    <h3>Message</h3>
-                    <textarea name="message" />
+                    <input type="text" name="user_name" placeholder='Please write your name here'/>
+                    <input type="email" name="user_email"placeholder='Please write your email here' />
+                    <textarea name="message" placeholder='Go ahead and type up and message that youd like for us to see!'/>
                     <center><input class = "button" type="submit" value="Send"/></center>
                 </form>
             </div>
-            {/*add a direction to where the emails would go}*/}
-            {/*add picture to the top*/}
         </div>
     )
 };
