@@ -44,6 +44,7 @@ export const Contact = () => {
             {/*setup via emailJS -> appstateclubxctrack@gmail, password: runningsucks*/}
             <div class ='email'>
                 <h1>Email Us</h1>
+                    <h5> (once you click send, then your email was sent to us!) </h5>
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="user_name" placeholder='Please write your name here'/>
                     <input type="email" name="user_email"placeholder='Please write your email here' />
