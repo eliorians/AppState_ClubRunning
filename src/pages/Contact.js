@@ -43,14 +43,13 @@ export const Contact = () => {
             
             {/*setup via emailJS -> appstateclubxctrack@gmail, password: runningsucks*/}
             <div class ='email'>
-                <h1>Email Us</h1>
-                    <h5> (once you click send, then your email was sent to us!) </h5>
+                <h1>Contact Us</h1>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="user_name" placeholder='Please write your name here'/>
-                    <input type="email" name="user_email"placeholder='Please write your email here' />
-                    <textarea name="message" placeholder='Go ahead and type up and message that youd like for us to see!'/>
+                    <input type="text" name="user_name" placeholder='Name'/>
+                    <input type="email" name="user_email" placeholder='Email Address' />
+                    <textarea name="message" placeholder='Your Message'/>
                     <p></p>
-                    <center><input class = "ebutton" type="submit" value="Send"/></center>
+                    <input class = "ebutton" type="submit" value="Send"/>
                 </form>
             </div>
         </div>

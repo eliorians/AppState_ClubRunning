@@ -441,10 +441,10 @@ div.records {
 /**************************** Contact Page ****************************/
 
 div.contact-wrapper {
-    margin: 100px;
+    margin: 80px;
     display: grid;
     grid-template-rows: auto;
-    row-gap: 50px;
+    row-gap: 25px;
 }
 
 div.faq {
@@ -492,8 +492,9 @@ div.form-box {
   margin: 0.9vw 0;
   border: 0;
   border-radius: 5px;
-  font-size: 20px;
-  height: 15vh;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  height: 10vh;
 }
 
 .form-box input, textarea {
@@ -503,30 +504,28 @@ div.form-box {
   margin: 0.9vw 0;
   border: 0;
   border-radius: 5px;
-  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
   height: 15vh;
 }
 
 .ebutton {
     color: white;
     background-color: #edc40c;
-    width: 50%;
     height: 40px;
     border: none;
     border-radius: 10px;
     padding: 12px 35px;
-
     display: inline-block;
     text-align: center;
     font-size: 16px;
     text-decoration: none;
     font-family: 'Merriweather', serif;
-    
     cursor: pointer;
     transition-duration: 0.4s;
-
     margin-top: 5px;
     margin-bottom: 30px;
+    width: 50%;
 }
 
 .ebutton:hover {
@@ -538,6 +537,6 @@ div.form-box {
 @media only screen and (max-width: 550px) {
 
     div.contact-wrapper {    
-        margin: 50px;
+        margin: 40px;
     }
 }
