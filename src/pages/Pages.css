@@ -109,7 +109,7 @@ iframe.excel {
 
     .button {
         font-size: 14px;
-        padding: 10px 15px;
+        padding: 14px 18px;
     }
 }
 
@@ -138,8 +138,8 @@ iframe.excel {
     }
 
     .button {
-        font-size: 12px;
-        padding: 7px 20px;
+        font-size: 14px;
+        padding: 12px 22px;
     }
 }
 
@@ -211,7 +211,7 @@ div.casual-img {
     div.home-wrapper {    
         display: inline-grid;
         grid-template-rows: auto;
-        row-gap: 75px;
+        row-gap: 50px;
     }
         
     div.welcome {
@@ -249,6 +249,7 @@ div.casual-img {
 
     div.home-wrapper {    
         margin: 50px;
+        row-gap: 25px;
     }
 }
 
