@@ -470,7 +470,6 @@ div.email {
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
-    border: 1px solid rgb(44, 41, 38);
     text-align: center;
     min-width: 100%;
     margin: 0vw;
@@ -505,6 +504,32 @@ div.form-box {
   border-radius: 5px;
   font-size: 20px;
   height: 15vh;
+}
+
+.ebutton {
+    color: white;
+    background-color: #edc40c;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.ebutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 

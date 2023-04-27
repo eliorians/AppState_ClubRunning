@@ -49,7 +49,8 @@ export const Contact = () => {
                     <input type="text" name="user_name" placeholder='Please write your name here'/>
                     <input type="email" name="user_email"placeholder='Please write your email here' />
                     <textarea name="message" placeholder='Go ahead and type up and message that youd like for us to see!'/>
-                    <center><input class = "button" type="submit" value="Send"/></center>
+                    <p></p>
+                    <center><input class = "ebutton" type="submit" value="Send"/></center>
                 </form>
             </div>
         </div>
