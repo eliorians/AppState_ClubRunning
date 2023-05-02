@@ -12,7 +12,7 @@ const Footer = () => {
                     </div>
 
                     <div className={classes.footer__content__date}>  
-                        Last Updated Spring 2022
+                        Last Updated Spring 2023
                     </div>
 
                 </div>
