@@ -11,7 +11,7 @@ const Join = () => {
         <div class='membership'>
             <h1>Club Membership</h1>
             <ol class='membership'>
-                <li>Join the club discord <a href='https://discord.gg/9p5XsXPEjD' target='_blank' rel='noreferrer'>here.</a></li>
+                <li>Join the club discord <a href='https://discord.gg/9UBtX4yUXh' target='_blank' rel='noreferrer'>here.</a></li>
                 <li><a href='https://drive.google.com/file/d/1fsNs_GjOUexzAfXsbPsqMMGHprl8gW1t/view?usp=share_link' target='_blank' rel='noreferrer'>This MIC form</a> must be printed and filled out in black ink and hand it to an officer before attending practice.</li>
                 <li>Once your form is processed, you'll be invited to the <a href='https://engage.appstate.edu/organization/appstateclubxctrack' target='_blank' rel='noreferrer'>club's engage</a> by email. Be sure to accept this invite!</li>
                 <li>Club dues are $35 per academic year. Pay cash to an officer, or through the website below. </li>
